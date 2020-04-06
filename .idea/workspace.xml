@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_03_DeadLock/_01_Introduction/Introduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_03_DeadLock/_02_Demos/SimpleDeadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_03_DeadLock/_02_Demos/TransferMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_DeadLock/_02_Demos/TransferMoneyMulti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_03_DeadLock/_02_Demos/TransferMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03_DeadLock/_02_Demos/TransferMoney.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,20 +69,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.TransferMoney">
-    <configuration name="Atomicity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_JavaMemoryModel._04_Atomicity.Atomicity" />
-      <module name="Learn_Concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_02_JavaMemoryModel._04_Atomicity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TransferMoneyMulti">
     <configuration name="SimpleDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_03_DeadLock._02_Demos.SimpleDeadLock" />
       <module name="Learn_Concurrency" />
@@ -125,6 +111,19 @@
     </configuration>
     <configuration name="TransferMoney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_03_DeadLock._02_Demos.TransferMoney" />
+      <module name="Learn_Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_03_DeadLock._02_Demos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransferMoneyMulti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_03_DeadLock._02_Demos.TransferMoneyMulti" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
@@ -242,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransferMoneyMulti" />
         <item itemvalue="Application.TransferMoney" />
         <item itemvalue="Application.SimpleDeadLock" />
         <item itemvalue="Application.SingletonType8" />
         <item itemvalue="Application.SingletonPatternIntro" />
-        <item itemvalue="Application.Atomicity" />
       </list>
     </recent_temporary>
   </component>
@@ -278,6 +277,8 @@
       <workItem from="1586087826826" duration="7000" />
       <workItem from="1586089770985" duration="670000" />
       <workItem from="1586137512831" duration="6252000" />
+      <workItem from="1586143882420" duration="30000" />
+      <workItem from="1586144088540" duration="2620000" />
     </task>
     <servers />
   </component>
@@ -288,26 +289,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586143102882">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586144673476">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586143102882" />
-    <state width="1493" height="172" key="GridCell.Tab.0.bottom" timestamp="1586143810552">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586144673476" />
+    <state width="1493" height="186" key="GridCell.Tab.0.bottom" timestamp="1586146710364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586143810552" />
-    <state width="1493" height="172" key="GridCell.Tab.0.center" timestamp="1586143810552">
+    <state width="1493" height="186" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586146710364" />
+    <state width="1493" height="186" key="GridCell.Tab.0.center" timestamp="1586146710364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586143810552" />
-    <state width="1493" height="172" key="GridCell.Tab.0.left" timestamp="1586143810552">
+    <state width="1493" height="186" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586146710364" />
+    <state width="1493" height="186" key="GridCell.Tab.0.left" timestamp="1586146710364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586143810552" />
-    <state width="1493" height="172" key="GridCell.Tab.0.right" timestamp="1586143810552">
+    <state width="1493" height="186" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586146710364" />
+    <state width="1493" height="186" key="GridCell.Tab.0.right" timestamp="1586146710364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="172" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586143810552" />
+    <state width="1493" height="186" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586146710364" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1586086651767">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

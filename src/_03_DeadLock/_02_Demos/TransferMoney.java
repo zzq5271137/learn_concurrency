@@ -1,7 +1,7 @@
 package _03_DeadLock._02_Demos;
 
 /*
- * 银行转账的死锁的例子;
+ * 模拟双人同时转账的死锁的例子;
  */
 
 class Account {
@@ -53,10 +53,10 @@ public class TransferMoney implements Runnable {
         }
     }
 
-    private static void transferMoney(Account from, Account to, int amount) throws TransferMoneyException, InterruptedException {
+    public static void transferMoney(Account from, Account to, int amount) throws TransferMoneyException, InterruptedException {
         synchronized (from) {
             // 如果加上这句代码的执行, 就会形成死锁
-            Thread.sleep(1000);
+            Thread.sleep(10);
 
             synchronized (to) {
                 if (from.balance - amount < 0) {
