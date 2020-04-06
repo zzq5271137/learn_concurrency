@@ -10,7 +10,7 @@ public class TransferMoneyMulti {
     private static final int ACCOUNT_NUMS = 500;
     private static final int DEFAULT_BALANCE = 1000;
     private static final int TRANSFER_ITERATIONS = 1000000;
-    private static final int THREADS_NUM = 20;
+    private static final int THREAD_NUMS = 20;
 
     public static void main(String[] args) {
         Random random = new Random();
@@ -34,7 +34,7 @@ public class TransferMoneyMulti {
                 System.out.println(Thread.currentThread().getName() + "运行结束");
             }
         }
-        for (int i = 0; i < THREADS_NUM; i++) {
+        for (int i = 0; i < THREAD_NUMS; i++) {
             new TransferThread().start();
         }
     }
