@@ -64,8 +64,7 @@ public class TransferMoney implements Runnable {
                 }
                 from.balance -= amount;
                 to.balance += amount;
-                System.out.println(from.accountName + "成功转了" + amount + "给" + to.accountName);
-                System.out.println("转账后: " + from + ", " + to);
+                System.out.println(from.accountName + "成功向" + to.accountName + "转账" + amount + ", 转账后: " + from + ", " + to);
             }
         }
     }
