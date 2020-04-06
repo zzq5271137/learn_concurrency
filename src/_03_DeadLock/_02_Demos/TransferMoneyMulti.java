@@ -31,6 +31,7 @@ public class TransferMoneyMulti {
                         e.printStackTrace();
                     }
                 }
+                System.out.println(Thread.currentThread().getName() + "运行结束");
             }
         }
         for (int i = 0; i < THREADS_NUM; i++) {
