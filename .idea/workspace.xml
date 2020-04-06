@@ -2,226 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_01_Core1_CreateThreads/RunnableStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_01_Core1_CreateThreads/ThreadStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_01_Core1_CreateThreads/UseBoth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_01_Core1_CreateThreads/WrongWays/AnonymousInnerClassStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_01_Core1_CreateThreads/WrongWays/LambdaStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_01_Core1_CreateThreads/WrongWays/ThreadPoolStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_01_Core1_CreateThreads/WrongWays/TimerStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_02_Core2_StartThreads/CantStartTwice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_02_Core2_StartThreads/StartAndRunMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_03_Core3_StopThreads/CantInterrupt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_03_Core3_StopThreads/CantThrowsExceptionInRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_03_Core3_StopThreads/CorrectWayStopThreadInProduct1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_03_Core3_StopThreads/CorrectWayStopThreadInProduct2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_03_Core3_StopThreads/CorrectWayStopThreadWithBlocked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_03_Core3_StopThreads/CorrectWayStopThreadWithBlockedInEveryLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_03_Core3_StopThreads/CorrectWayStopThreadWithoutBlocked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_03_Core3_StopThreads/InterruptedAndIsInterrupted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_03_Core3_StopThreads/WrongWays/StopThreadUsingStop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_03_Core3_StopThreads/WrongWays/volatiledemo/VolatileDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_03_Core3_StopThreads/WrongWays/volatiledemo/VolatileDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_03_Core3_StopThreads/WrongWays/volatiledemo/VolatileDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/BlockedWaitingTimedWaiting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/NewRunnableTerminated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_01_Introduction/DisappearedRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_02_HowToUse/SynchronizedClassCodeBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_02_HowToUse/SynchronizedClassStaticMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_02_HowToUse/SynchronizedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_02_HowToUse/SynchronizedObjectCodeBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_02_HowToUse/SynchronizedObjectMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_03_CorrectCounter/CorrectCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_04_OtherCases/SynchronizedDifferentMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_04_OtherCases/SynchronizedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_04_OtherCases/SynchronizedStaticAndNormalMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_04_OtherCases/SynchronizedYesAndNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_05_SynchronizedProperties/ReentrantDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_05_SynchronizedProperties/SynchronizedReentrantSituation1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_05_SynchronizedProperties/SynchronizedReentrantSituation2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_05_SynchronizedProperties/SynchronizedReentrantSituation3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_06_Theory/SynchronizedDecompilation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_06_Theory/SynchronizedToLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_07_Drawbacks/LockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/CurrentThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/DontUseThreadInstanceAsLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/Examples/PrintOddEvenUsingSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/Examples/PrintOddEvenUsingWaitNotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/Examples/ProducerConsumerPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/JoinDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/JoinInterrupt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/JoinPrinciple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/JoinThreadState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/NotifyAndNotifyAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/SleepDontReleaseLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/SleepDontReleaseMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/SleepInterrupted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/WaitAndNotifyIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/WaitOnlyReleaseOwnMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_05_Core5_CoreMethodsInThreadAndObjectClass/YieldDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_06_Core6_ThreadAttributes/ThreadID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_06_Core6_ThreadAttributes/ThreadIsDaemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_06_Core6_ThreadAttributes/ThreadName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_06_Core6_ThreadAttributes/ThreadPriority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_07_Core7_UncaughtException/CantCatchChildThreadExceptionDirectly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_07_Core7_UncaughtException/ExceptionInChildThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_07_Core7_UncaughtException/MyUncaughtExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_07_Core7_UncaughtException/UseMyUncaughtExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/LivenessError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/ObserverPattern/_01_Template/ConcreteObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/ObserverPattern/_01_Template/ConcreteSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/ObserverPattern/_01_Template/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/ObserverPattern/_01_Template/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/ObserverPattern/_02_WeatherExample/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/ObserverPattern/_02_WeatherExample/ConcreteObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/ObserverPattern/_02_WeatherExample/ConcreteWeatherSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/ObserverPattern/_02_WeatherExample/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/ObserverPattern/_02_WeatherExample/WeatherSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/ObserverPattern/_03_ObserverByJDK/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/ObserverPattern/_03_ObserverByJDK/ConcreteObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/ObserverPattern/_03_ObserverByJDK/ConcreteWeatherSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/PublishAndInitializationError1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/PublishAndInitializationError2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/PublishAndInitializationError3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/PublishAndInitializationError4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/PublishAndInitializationErrorFixed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/ResultError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_01_ThreadSecurity/ThreadSecurityIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_01_EightCores/_08_Core8_Problems/_02_Performance/PerformanceProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_01_Introduction/Introduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_01_Introduction/JMMIntroduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_02_OutOfOrderExecution/OutOfOrderExecution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_03_FieldVisibility/FieldVisibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_03_FieldVisibility/HappensBefore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_03_FieldVisibility/LockPrinciple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_03_FieldVisibility/MemoryBarrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_03_FieldVisibility/OutOfOrderExecutionVolatileFixed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_03_FieldVisibility/VolatileNotUseful.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_03_FieldVisibility/VolatilePrinciple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_03_FieldVisibility/VolatileUsefulDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_03_FieldVisibility/VolatileUsefulDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_04_Atomicity/Atomicity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_05_SingletonPattern/SingletonPatternIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_05_SingletonPattern/SingletonType1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_05_SingletonPattern/SingletonType2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_05_SingletonPattern/SingletonType3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_05_SingletonPattern/SingletonType4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_05_SingletonPattern/SingletonType5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_05_SingletonPattern/SingletonType6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_05_SingletonPattern/SingletonType7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_05_SingletonPattern/SingletonType8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/0_全课脉络.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/1_线程8大核心基础.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/2_Java内存模型底层原理.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/3_死锁从产生到消除.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/4_预告课外资料之并发工具类.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/CPU缓存结构.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/Java异常体系.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/wait原理.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/两线程死锁情况.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/主内存和工作内存1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/主内存和工作内存2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/双重检查模式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/哲学家就餐1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/哲学家就餐2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/多线程循环死锁情况.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/死锁漫画.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/生产者模式1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/生产者模式2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/线程各属性总结.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/线程各属性概览.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/线程安全问题.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/线程的6个状态.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/线程重要方法.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/重排序前指令.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage1/5_技术图片/重排序后指令.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/6类原子类纵览.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/AQS 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/AQS 2png.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/AQS 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/AtomicLong的弊端.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/CAS 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/CachedThreadPool .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/Condition作用 .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/CountDownLatch 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/CountDownLatch源码分析 .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/Future的cancel方法：取消任务的执行 .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/HashMap分析 1.7 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/HashMap分析 1.7 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/HashMap分析 1.8 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/HashMap分析 1.8 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/JDK1.7的ConcurrentHashMap实现和分析 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/JDK1.7的ConcurrentHashMap实现和分析 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/JDK1.8的ConcurrentHashMap实现和分析 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/Java 8 HashMap结构.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/LongAdder带来的改进和原理 .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/LongAdder带来的改进和原理 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/LongAdder带来的改进和原理 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/Map接口1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/Map接口2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ReentrantLock使用案例 .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ReentrantLock使用案例2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ReentrantLock使用案例3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ReentrantReadWriteLock具体用法 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ReentrantReadWriteLock具体用法 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ReentrantReadWriteLock具体用法 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/SynchronousQueue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ThreadLocal原理图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ThreadLocal演进过程/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ThreadLocal演进过程/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ThreadLocal演进过程/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ThreadLocal演进过程/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ThreadLocal演进过程/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ThreadLocal演进过程/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ThreadLocal演进过程/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ThreadLocal演进过程/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/ThreadLocal演进过程/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/corePoolSize和maxPoolSize .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/乐观锁1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/乐观锁2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/乐观锁3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/乐观锁4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/乐观锁5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/什么是阻塞队列 .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/什么是阻塞队列 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/什么是阻塞队列 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/信号量1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/信号量10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/信号量11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/信号量12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/信号量13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/信号量2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/信号量3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/信号量4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/信号量5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/信号量6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/信号量7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/信号量8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/信号量9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/公平锁1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/公平锁2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/可见性1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/可见性2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/可重入锁和不可重入锁源码对比.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/哪个是线程池？ .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/实战项目：高性能缓存 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/实战项目：高性能缓存 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/对比公平锁和非公平锁源码.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/悲观锁.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/悲观锁2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/有哪些控制并发流程的工具类？ .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/红黑树.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/线程池拒绝任务.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/线程池构造函数的参数 .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/线程池添加线程规则  .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/线程池的submit方法返回Future对象.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/线程池的submit方法返回Future对象2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/线程池的submit方法返回Future对象3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/线程池结构.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/读锁插队策略 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/读锁插队策略 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/阻塞队列和非阻塞队列 .png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课程资料/stage2/非公平锁.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_DeadLock/_01_Introduction/Introduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_DeadLock/_02_Demos/SimpleDeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_DeadLock/_02_Demos/TransferMoney.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,6 +13,13 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -280,13 +70,26 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Application.SingletonType8">
+  <component name="RunManager" selected="Application.TransferMoney">
     <configuration name="Atomicity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_02_JavaMemoryModel._04_Atomicity.Atomicity" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_02_JavaMemoryModel._04_Atomicity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_03_DeadLock._02_Demos.SimpleDeadLock" />
+      <module name="Learn_Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_03_DeadLock._02_Demos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,25 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileUsefulDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_JavaMemoryModel._03_FieldVisibility.VolatileUsefulDemo1" />
+    <configuration name="TransferMoney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_03_DeadLock._02_Demos.TransferMoney" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_02_JavaMemoryModel._03_FieldVisibility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VolatileUsefulDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_JavaMemoryModel._03_FieldVisibility.VolatileUsefulDemo2" />
-      <module name="Learn_Concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_02_JavaMemoryModel._03_FieldVisibility.*" />
+          <option name="PATTERN" value="_03_DeadLock._02_Demos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -452,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransferMoney" />
+        <item itemvalue="Application.SimpleDeadLock" />
         <item itemvalue="Application.SingletonType8" />
         <item itemvalue="Application.SingletonPatternIntro" />
         <item itemvalue="Application.Atomicity" />
-        <item itemvalue="Application.VolatileUsefulDemo2" />
-        <item itemvalue="Application.VolatileUsefulDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -485,6 +275,9 @@
       <workItem from="1586086130487" duration="37000" />
       <workItem from="1586086183570" duration="218000" />
       <workItem from="1586086585073" duration="1014000" />
+      <workItem from="1586087826826" duration="7000" />
+      <workItem from="1586089770985" duration="670000" />
+      <workItem from="1586137512831" duration="6252000" />
     </task>
     <servers />
   </component>
@@ -495,22 +288,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="145" key="GridCell.Tab.0.bottom" timestamp="1586087599463">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586143102882">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="145" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586087599463" />
-    <state width="1493" height="145" key="GridCell.Tab.0.center" timestamp="1586087599463">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586143102882" />
+    <state width="1493" height="172" key="GridCell.Tab.0.bottom" timestamp="1586143810552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="145" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586087599463" />
-    <state width="1493" height="145" key="GridCell.Tab.0.left" timestamp="1586087599463">
+    <state width="1493" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586143810552" />
+    <state width="1493" height="172" key="GridCell.Tab.0.center" timestamp="1586143810552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="145" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586087599463" />
-    <state width="1493" height="145" key="GridCell.Tab.0.right" timestamp="1586087599463">
+    <state width="1493" height="172" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586143810552" />
+    <state width="1493" height="172" key="GridCell.Tab.0.left" timestamp="1586143810552">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="145" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586087599463" />
+    <state width="1493" height="172" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586143810552" />
+    <state width="1493" height="172" key="GridCell.Tab.0.right" timestamp="1586143810552">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="172" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586143810552" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1586086651767">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
