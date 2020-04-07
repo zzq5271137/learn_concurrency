@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_03_DeadLock/_05_FixDeadLocks/FixDiningPhilosophers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_DeadLock/_05_FixDeadLocks/TryLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_DeadLock/_06_LiveLock/LiveLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_03_DeadLock/_07_Starvation/Starvation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_03_DeadLock/_01_Introduction/Introduction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_03_DeadLock/_01_Introduction/Introduction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_03_DeadLock/_05_FixDeadLocks/FixDeadLocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_03_DeadLock/_05_FixDeadLocks/FixDeadLocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_03_DeadLock/_01_Introduction/Introduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03_DeadLock/_01_Introduction/Introduction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_03_DeadLock/_05_FixDeadLocks/FixDeadLocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03_DeadLock/_05_FixDeadLocks/FixDeadLocks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,35 +79,9 @@
       <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_03_DeadLock\_05_FixDeadLocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FixDiningPhilosophers1">
-    <configuration name="DetectDeadLocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_03_DeadLock._04_DetectDeadLocks.DetectDeadLocks" />
-      <module name="Learn_Concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_03_DeadLock._04_DetectDeadLocks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LiveLock">
     <configuration name="DiningPhilosophers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_03_DeadLock._05_FixDeadLocks.DiningPhilosophers" />
-      <module name="Learn_Concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_03_DeadLock._05_FixDeadLocks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FixDiningPhilosophers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_03_DeadLock._05_FixDeadLocks.FixDiningPhilosophers" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
@@ -127,12 +106,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LiveLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_03_DeadLock._06_LiveLock.LiveLock" />
+      <module name="Learn_Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_03_DeadLock._06_LiveLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreadMXBeanDetection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_03_DeadLock._04_DetectDeadLocks.ThreadMXBeanDetection" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_03_DeadLock._04_DetectDeadLocks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TryLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_03_DeadLock._05_FixDeadLocks.TryLockDemo" />
+      <module name="Learn_Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_03_DeadLock._05_FixDeadLocks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FixDiningPhilosophers1" />
+        <item itemvalue="Application.LiveLock" />
+        <item itemvalue="Application.TryLockDemo" />
         <item itemvalue="Application.DiningPhilosophers" />
         <item itemvalue="Application.FixTransferMoney" />
         <item itemvalue="Application.ThreadMXBeanDetection" />
-        <item itemvalue="Application.DetectDeadLocks" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +297,13 @@
       <workItem from="1586177057585" duration="48000" />
       <workItem from="1586177554452" duration="551000" />
       <workItem from="1586184949998" duration="3496000" />
-      <workItem from="1586223955686" duration="1250000" />
+      <workItem from="1586223955686" duration="8468000" />
+      <workItem from="1586237956690" duration="1792000" />
+      <workItem from="1586245440642" duration="685000" />
+      <workItem from="1586254427896" duration="324000" />
+      <workItem from="1586254826940" duration="3916000" />
+      <workItem from="1586263184578" duration="1116000" />
+      <workItem from="1586271304891" duration="45000" />
     </task>
     <servers />
   </component>
@@ -303,29 +314,33 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586185382892">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586255538520">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586185382892" />
-    <state width="1493" height="177" key="GridCell.Tab.0.bottom" timestamp="1586224201117">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586255538520" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1586258750696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="177" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586224201117" />
-    <state width="1493" height="177" key="GridCell.Tab.0.center" timestamp="1586224201117">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586258750696" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1586258750696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="177" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586224201117" />
-    <state width="1493" height="177" key="GridCell.Tab.0.left" timestamp="1586224201116">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586258750696" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1586258750696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="177" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586224201116" />
-    <state width="1493" height="177" key="GridCell.Tab.0.right" timestamp="1586224201117">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586258750696" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1586258750696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="177" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586224201117" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1586086651767">
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586258750696" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1586254956492">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586086651767" />
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586254956492" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586238683012">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586238683012" />
   </component>
 </project>

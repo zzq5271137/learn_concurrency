@@ -24,6 +24,21 @@ package _03_DeadLock._05_FixDeadLocks;
  * 3. 鸵鸟策略
  *    鸵鸟这种动物在遇到危险的时候, 通常就会把头埋在地里, 这样一来它就看不到危险了;
  *    而鸵鸟策略的意思就是说, 如果我们发生死锁的概率极其低, 那么我们直接就忽略它, 直到死锁发生的时候再人工修复;
+ *
+ * 在实际工程中如何有效避免死锁:
+ * 1. 设置超时时间
+ *    synchronized是不具备尝试锁的能力的, 推荐使用Lock的tryLock()方法;
+ *    示例详见TryLockDemo.java
+ * 2. 多实用并发类, 而不是自己设计锁
+ *    如ConcurrentHashMap, ConcurrentLinkedQueue, java.util.concurrent.atomic包中的工具等等;
+ *    多用并发集合, 少用同步集合(Collections.synchronizedMap、Collections.synchronizedList等),
+ *    并发集合比同步集合的可扩展性更好;
+ * 3. 尽量降低锁的使用粒度: 用不同的锁而不是同一个锁(不要一整个类的所有功能就用一把锁)
+ * 4. 在使用synchronized时, 如果能使用同步代码块, 就不要使用同步方法, 自己去指定锁对象
+ * 5. 给线程起个有意义的名字, debug和排查时事半功倍, 框架和JDK都遵守这个实践
+ * 6. 尽量避免使用锁的嵌套
+ * 7. 分配资源前先看看能不能收回来
+ * 8. 尽量不要几个功能共用同一把锁, 专锁专用
  */
 
 public class FixDeadLocks {
