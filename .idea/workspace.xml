@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_03_DeadLock/_05_FixDeadLocks/TryLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_03_DeadLock/_06_LiveLock/LiveLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_03_DeadLock/_07_Starvation/Starvation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_03_DeadLock/_01_Introduction/Introduction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_03_DeadLock/_01_Introduction/Introduction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_03_DeadLock/_05_FixDeadLocks/FixDeadLocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_03_DeadLock/_05_FixDeadLocks/FixDeadLocks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_03_DeadLock/_01_Introduction/Introduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03_DeadLock/_01_Introduction/Introduction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_03_DeadLock/_05_FixDeadLocks/FixDeadLocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03_DeadLock/_05_FixDeadLocks/FixDeadLocks.java" afterDir="false" />
-    </list>
+    <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -304,6 +296,7 @@
       <workItem from="1586254826940" duration="3916000" />
       <workItem from="1586263184578" duration="1116000" />
       <workItem from="1586271304891" duration="45000" />
+      <workItem from="1586317392944" duration="647000" />
     </task>
     <servers />
   </component>
