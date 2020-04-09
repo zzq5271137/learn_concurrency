@@ -3,8 +3,11 @@ package _05_ThreadPool._02_CreateThreadPool;
 /*
  * 演示FixedThreadPool线程池;
  *
- * corePoolSize和maximumPoolSize相同的线程池, 不回收线程(keepAliveTime为0),
- * 使用无界队列(LinkedBlockingQueue);
+ * 参数:
+ * 1. corePoolSize和maximumPoolSize相同的线程池(为传入的参数值),
+ *     不回收线程(由于corePoolSize和maximumPoolSize相同);
+ * 2. keepAliveTime为0;
+ * 3. 使用无界队列(LinkedBlockingQueue);
  */
 
 import java.util.concurrent.ExecutorService;

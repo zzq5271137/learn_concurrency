@@ -68,21 +68,72 @@ package _05_ThreadPool._02_CreateThreadPool;
  * 自动创建线程池(即使用JDK封装好的构造函数, 比如Executors.newFixedThreadPool())可能会带来很多问题;
  * 自动创建的线程池有:
  * 1. FixedThreadPool
- *    corePoolSize和maximumPoolSize相同的线程池, 不回收线程(keepAliveTime为0),
- *    使用无界队列(LinkedBlockingQueue);
+ *    1). corePoolSize和maximumPoolSize相同的线程池(为传入的参数值),
+ *        不回收线程(由于corePoolSize和maximumPoolSize相同);
+ *    2). keepAliveTime为0;
+ *    3). 使用无界队列(LinkedBlockingQueue);
  *    详见FixedThreadDemo.java和FixedThreadPoolOOMDemo.java
  * 2. SingleThreadExecutor
- *    只有1个线程的线程池, corePoolSize和maximumPoolSize都是1, 不回收线程(keepAliveTime为0),
- *    使用无界队列(LinkedBlockingQueue);
+ *    1). 只有1个线程的线程池, corePoolSize和maximumPoolSize都是1,
+ *        不回收线程(由于corePoolSize和maximumPoolSize相同);
+ *    2). keepAliveTime为0;
+ *    3). 使用无界队列(LinkedBlockingQueue);
  *    详见SingleThreadExecutorDemo.java
  * 3. CachedThreadPool
- *    可缓存的线程池, 因为它设置了keepAliveTime(默认是60秒), 所以会把闲置的线程给回收回来,
- *    是无界线程池, 因为它的maximumPoolSize值为Integer.MAX_VALUE,
- *    使用直接交接队列(SynchronousQueue), 即提交的任务直接交给线程执行;
+ *    可缓存的线程池,
+ *    1). corePoolSize为0, maximumPoolSize为Integer.MAX_VALUE(无界线程池);
+ *    2). 设置了keepAliveTime(默认是60秒), 会把闲置超过keepAliveTime的线程给回收回来;
+ *    3). 使用直接交接队列(SynchronousQueue), 即提交的任务直接交给线程执行;
  *    详见CachedThreadPoolDemo.java
+ * 4. ScheduledThreadPool
+ *    支持定时以及周期性任务执行的线程池,
+ *    1). corePoolSize为传入的参数值, maximumPoolSize为Integer.MAX_VALUE(无界线程池);
+ *    2). keepAliveTime为0, 立即回收线程(因为corePoolSize和maximumPoolSize大小不一样, 而且keepAliveTime为0,
+ *        所以当线程数超过corePoolSize且某个线程空闲了, 就立即终止/回收它);
+ *    详见ScheduledThreadPoolDemo.java
+ * 这些设计好的线程池可能与我们的实际业务不完全契合, 所以我们最好根据不同的业务场景, 自己创建线程池,
+ * 这样就可以设置各种线程池参数, 比如我们的内存有多大, 我们想给线程取什么名字等等;
+ * 那么, 当手动创建线程池时, 线程数设置为多少比较合适呢:
+ * 1. 业务为CPU密集型(有大量的加密、计算hash等):
+ *    最佳线程数为CPU核心数的1~2倍左右就足够了; 因为每个线程是在一直不停的利用CPU资源在工作的,
+ *    几乎不会有线程空占CPU资源的情况(比如CPU等待I/O读写, 就是空占CPU资源);
+ * 2. 业务为耗时I/O型(有大量的读写数据库、文件、网络读写等):
+ *    最佳线程数一般会大于CPU核心数很多倍, 以JVM线程监控显示繁忙为依据, 保证线程空闲可以衔接上;
+ *    线程数设置为CPU核心数很多倍(比如10倍、20倍)是因为, 由于CPU在等待读写时, 实际上CPU是不工作的,
+ *    线程白白占据着CPU资源却不在工作, 这是很浪费的, 所以我们设置很多很多的线程,
+ *    让他们由系统调度CPU时钟进行交替工作, 这样就能减少CPU资源的浪费, 充分利用CPU资源;
+ * 综合以上两点, Brain Goetz推荐的线程数计算方法为:
+ * 线程数 = CPU核心数 * (1 + 平均等待时间 / 平均工作时间)
+ *
+ * 手动创建线程池的简单Demo详见下方代码示例;
  */
+
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.ThreadFactory;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 public class CreateThreadPool {
     public static void main(String[] args) {
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(
+                50,
+                200,
+                60, TimeUnit.SECONDS,
+                new ArrayBlockingQueue<>(5000),
+                new ThreadFactory() {
+                    @Override
+                    public Thread newThread(Runnable r) {
+                        return new Thread(r, "mypool-" + r.hashCode());
+                    }
+                },
+                new ThreadPoolExecutor.DiscardOldestPolicy());
+
+        for (int i = 0; i < 1000; i++) {
+            threadPoolExecutor.execute(() -> {
+                System.out.println(Thread.currentThread().getName() + "正在执行");
+            });
+        }
+
+        threadPoolExecutor.shutdown();
     }
 }

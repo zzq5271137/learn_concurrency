@@ -3,8 +3,11 @@ package _05_ThreadPool._02_CreateThreadPool;
 /*
  * 演示SingleThreadExecutor线程池;
  *
- * 只有1个线程的线程池, corePoolSize和maximumPoolSize都是1, 不回收线程(keepAliveTime为0),
- * 使用无界队列(LinkedBlockingQueue);
+ * 参数:
+ * 1. 只有1个线程的线程池, corePoolSize和maximumPoolSize都是1,
+ *    不回收线程(由于corePoolSize和maximumPoolSize相同);
+ * 2. keepAliveTime为0;
+ * 3. 使用无界队列(LinkedBlockingQueue);
  *
  * 这种线程池和newFixedThreadPool基本一样, 只不过把corePoolSize和maximumPoolSize都设置为了1,
  * 而且也是使用无界队列(LinkedBlockingQueue), 所以也会导致相同的问题, 即当请求数越来越多,
