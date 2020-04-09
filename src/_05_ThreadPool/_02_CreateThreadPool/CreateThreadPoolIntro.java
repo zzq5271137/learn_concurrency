@@ -90,6 +90,7 @@ package _05_ThreadPool._02_CreateThreadPool;
  *    1). corePoolSize为传入的参数值, maximumPoolSize为Integer.MAX_VALUE(无界线程池);
  *    2). keepAliveTime为0, 立即回收线程(因为corePoolSize和maximumPoolSize大小不一样, 而且keepAliveTime为0,
  *        所以当线程数超过corePoolSize且某个线程空闲了, 就立即终止/回收它);
+ *    3). 使用延迟队列(DelayedWorkQueue), 有延迟任务执行的功能;
  *    详见ScheduledThreadPoolDemo.java
  * 这些设计好的线程池可能与我们的实际业务不完全契合, 所以我们最好根据不同的业务场景, 自己创建线程池,
  * 这样就可以设置各种线程池参数, 比如我们的内存有多大, 我们想给线程取什么名字等等;
