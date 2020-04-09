@@ -84,7 +84,7 @@ public class PauseableThreadPool extends ThreadPoolExecutor {
 
     public static void main(String[] args) throws InterruptedException {
         PauseableThreadPool threadPool = new PauseableThreadPool(10, 20, 10L,
-                TimeUnit.SECONDS, new LinkedBlockingDeque<>());
+                TimeUnit.SECONDS, new LinkedBlockingQueue<>());
         Runnable task = new Runnable() {
             @Override
             public void run() {
