@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/_05_ThreadPool/_05_HookFunctions/PauseableThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05_ThreadPool/_05_HookFunctions/PauseableThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_ThreadPool/_06_ExecutorFamily/ExecutorFamily.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_ThreadPool/_06_ExecutorFamily/ThreadPoolStates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_06_ThreadLocal/_01_HowToUse/ThreadLocalNormalUsage00.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_06_ThreadLocal/_01_HowToUse/ThreadLocalNormalUsage01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_06_ThreadLocal/_01_HowToUse/ThreadLocalNormalUsage02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_06_ThreadLocal/_01_HowToUse/ThreadLocalNormalUsage03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_06_ThreadLocal/_01_HowToUse/ThreadLocalNormalUsage04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_06_ThreadLocal/_01_HowToUse/ThreadLocalNormalUsage05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_06_ThreadLocal/_01_HowToUse/ThreadLocalNormalUsage06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_06_ThreadLocal/_01_HowToUse/UsageScenarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_06_ThreadLocal/_02_ThreadLocalPrinciple/ThreadLocalPrinciple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_05_ThreadPool/_02_CreateThreadPool/CreateThreadPoolIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_05_ThreadPool/_02_CreateThreadPool/CreateThreadPoolIntro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,17 +80,20 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_06_ThreadLocal._01_HowToUse" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_03_DeadLock\_05_FixDeadLocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PauseableThreadPool">
-    <configuration name="CachedThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_ThreadPool._02_CreateThreadPool.CachedThreadPoolDemo" />
+  <component name="RunManager" selected="Application.ThreadLocalNormalUsage06">
+    <configuration name="ThreadLocalNormalUsage02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_06_ThreadLocal._01_HowToUse.ThreadLocalNormalUsage02" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_05_ThreadPool._02_CreateThreadPool.*" />
+          <option name="PATTERN" value="_06_ThreadLocal._01_HowToUse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateThreadPoolIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_ThreadPool._02_CreateThreadPool.CreateThreadPoolIntro" />
+    <configuration name="ThreadLocalNormalUsage03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_06_ThreadLocal._01_HowToUse.ThreadLocalNormalUsage03" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_05_ThreadPool._02_CreateThreadPool.*" />
+          <option name="PATTERN" value="_06_ThreadLocal._01_HowToUse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PauseableThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_ThreadPool._05_HookFunctions.PauseableThreadPool" />
+    <configuration name="ThreadLocalNormalUsage04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_06_ThreadLocal._01_HowToUse.ThreadLocalNormalUsage04" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_05_ThreadPool._05_HookFunctions.*" />
+          <option name="PATTERN" value="_06_ThreadLocal._01_HowToUse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScheduledThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_ThreadPool._02_CreateThreadPool.ScheduledThreadPoolDemo" />
+    <configuration name="ThreadLocalNormalUsage05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_06_ThreadLocal._01_HowToUse.ThreadLocalNormalUsage05" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_05_ThreadPool._02_CreateThreadPool.*" />
+          <option name="PATTERN" value="_06_ThreadLocal._01_HowToUse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShutDownThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_ThreadPool._03_ShutdownThreadPool.ShutDownThreadPool" />
+    <configuration name="ThreadLocalNormalUsage06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_06_ThreadLocal._01_HowToUse.ThreadLocalNormalUsage06" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_05_ThreadPool._03_ShutdownThreadPool.*" />
+          <option name="PATTERN" value="_06_ThreadLocal._01_HowToUse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PauseableThreadPool" />
-        <item itemvalue="Application.ShutDownThreadPool" />
-        <item itemvalue="Application.CreateThreadPoolIntro" />
-        <item itemvalue="Application.ScheduledThreadPoolDemo" />
-        <item itemvalue="Application.CachedThreadPoolDemo" />
+        <item itemvalue="Application.ThreadLocalNormalUsage06" />
+        <item itemvalue="Application.ThreadLocalNormalUsage05" />
+        <item itemvalue="Application.ThreadLocalNormalUsage04" />
+        <item itemvalue="Application.ThreadLocalNormalUsage03" />
+        <item itemvalue="Application.ThreadLocalNormalUsage02" />
       </list>
     </recent_temporary>
   </component>
@@ -307,6 +321,16 @@
       <workItem from="1586430358202" duration="18000" />
       <workItem from="1586430496914" duration="8694000" />
       <workItem from="1586445258718" duration="83000" />
+      <workItem from="1586446477474" duration="1921000" />
+      <workItem from="1586448504880" duration="1221000" />
+      <workItem from="1586490649075" duration="6233000" />
+      <workItem from="1586496952472" duration="44000" />
+      <workItem from="1586500067341" duration="2637000" />
+      <workItem from="1586509754471" duration="6574000" />
+      <workItem from="1586517992314" duration="116000" />
+      <workItem from="1586518334506" duration="14000" />
+      <workItem from="1586518449750" duration="41000" />
+      <workItem from="1586518628236" duration="6287000" />
     </task>
     <servers />
   </component>
@@ -317,34 +341,42 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586437074307">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586514365369">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586437074307" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586514365369" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586430964576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586430964576" />
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1586445340773">
+    <state width="1493" height="231" key="GridCell.Tab.0.bottom" timestamp="1586525066323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586445340773" />
-    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1586445340773">
+    <state width="1493" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586525066323" />
+    <state width="1493" height="231" key="GridCell.Tab.0.center" timestamp="1586525066323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586445340773" />
-    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1586445340773">
+    <state width="1493" height="231" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586525066323" />
+    <state width="1493" height="231" key="GridCell.Tab.0.left" timestamp="1586525066323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586445340773" />
-    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1586445340773">
+    <state width="1493" height="231" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586525066323" />
+    <state width="1493" height="231" key="GridCell.Tab.0.right" timestamp="1586525066323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586445340773" />
+    <state width="1493" height="231" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586525066323" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1586254956492">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586254956492" />
+    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1586524415804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1586524415804" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1586521247740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586521247740" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586438072759">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
