@@ -10,7 +10,7 @@ package _05_ThreadPool._02_CreateThreadPool;
  * 3. 使用直接交接队列(SynchronousQueue), 即提交的任务直接交给线程执行;
  *
  * 这种线程池的弊端在于maximumPoolSize被设置为了Integer.MAX_VALUE, 这可能会创建数量非常多的线程,
- * 甚至导致OOM异常;
+ * 甚至导致OOM错误(OutOfMemoryError);
  */
 
 import java.util.concurrent.ExecutorService;

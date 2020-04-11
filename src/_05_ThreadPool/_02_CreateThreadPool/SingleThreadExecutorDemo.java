@@ -11,7 +11,7 @@ package _05_ThreadPool._02_CreateThreadPool;
  *
  * 这种线程池和newFixedThreadPool基本一样, 只不过把corePoolSize和maximumPoolSize都设置为了1,
  * 而且也是使用无界队列(LinkedBlockingQueue), 所以也会导致相同的问题, 即当请求数越来越多,
- * 且无法及时处理完毕的时候, 也就是请求堆积的时候, 会容易造成内存的大量占用, 可能会导致OOM异常;
+ * 且无法及时处理完毕的时候, 也就是请求堆积的时候, 会容易造成内存的大量占用, 可能会导致OOM错误(OutOfMemoryError);
  */
 
 import java.util.concurrent.ExecutorService;

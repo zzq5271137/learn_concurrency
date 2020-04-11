@@ -38,7 +38,7 @@ package _05_ThreadPool._02_CreateThreadPool;
  *    2). 无界队列: LinkedBlockingQueue
  *        LinkedBlockingQueue的容量可以看成是无限的, 它不会被装满; 所以, 如果使用这种队列,
  *        线程池中的线程数永远不会超过corePoolSize; 使用这种队列有风险, 因为如果处理速度跟不上任务提交的速度,
- *        那么队列里的任务就会越来越多, 可能会造成内存浪费或者OOM异常;
+ *        那么队列里的任务就会越来越多, 可能会造成内存浪费或者OOM错误(OutOfMemoryError);
  *    3). 有界队列: ArrayBlokcingQueue
  *        ArrayBlokcingQueue可以设置队列大小;
  * 5. threadFactory: ThreadFactory

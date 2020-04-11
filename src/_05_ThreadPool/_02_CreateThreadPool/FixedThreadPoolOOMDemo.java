@@ -1,11 +1,11 @@
 package _05_ThreadPool._02_CreateThreadPool;
 
 /*
- * 演示FixedThreadPool线程池的OOM异常的情况;
+ * 演示FixedThreadPool线程池的OOM错误(OutOfMemoryError)的情况;
  *
  * 通过观察Executors.newFixedThreadPool()的源码我们可以知道, 这种线程池使用的是LinkedBlockingQueue,
  * 这是无界队列; 由于LinkedBlockingQueue是没有容量上限的, 所以当请求数越来越多, 并且无法及时处理完毕的时候,
- * 也就是请求堆积的时候, 会容易造成内存的大量占用, 可能会导致OOM异常;
+ * 也就是请求堆积的时候, 会容易造成内存的大量占用, 可能会导致OOM错误(OutOfMemoryError);
  */
 
 import java.util.concurrent.ExecutorService;
