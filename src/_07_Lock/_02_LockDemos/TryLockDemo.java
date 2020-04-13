@@ -1,4 +1,4 @@
-package _03_DeadLock._05_FixDeadLocks;
+package _07_Lock._02_LockDemos;
 
 /*
  * 演示用tryLock()来避免死锁;
