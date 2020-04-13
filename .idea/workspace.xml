@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_01_Intro/Intro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_02_LockDemos/MustUnlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_02_LockDemos/TryLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_06_ThreadLocal/_02_ThreadLocalPrinciple/ThreadLocalPrinciple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_06_ThreadLocal/_02_ThreadLocalPrinciple/ThreadLocalPrinciple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_03_DeadLock/_05_FixDeadLocks/TryLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_03_DeadLock/_05_FixDeadLocks/TryLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_02_LockDemos/LockInterruptiblyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_03_FieldVisibilityOfLock/FieldVisibilityOfLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_01_Intro/Intro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_01_Intro/Intro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_03_FieldVisibility/HappensBefore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_03_FieldVisibility/HappensBefore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_07_Lock/_01_Intro/Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07_Lock/_01_Intro/Intro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +82,9 @@
       <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_03_DeadLock\_05_FixDeadLocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TryLockDemo (1)">
-    <configuration name="MustUnlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_07_Lock._02_LockDemos.MustUnlock" />
+  <component name="RunManager" selected="Application.LockInterruptiblyDemo">
+    <configuration name="LockInterruptiblyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_07_Lock._02_LockDemos.LockInterruptiblyDemo" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrongReferenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_06_ThreadLocal._03_ReferencesTypes.StrongReferenceDemo" />
+    <configuration name="MustUnlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_07_Lock._02_LockDemos.MustUnlock" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_06_ThreadLocal._03_ReferencesTypes.*" />
+          <option name="PATTERN" value="_07_Lock._02_LockDemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LockInterruptiblyDemo" />
         <item itemvalue="Application.TryLockDemo (1)" />
         <item itemvalue="Application.TryLockDemo" />
         <item itemvalue="Application.MustUnlock" />
         <item itemvalue="Application.ThreadLocalNPE" />
-        <item itemvalue="Application.StrongReferenceDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -331,6 +331,9 @@
       <workItem from="1586751352705" duration="9697000" />
       <workItem from="1586768349343" duration="3104000" />
       <workItem from="1586771803530" duration="5950000" />
+      <workItem from="1586778911313" duration="48000" />
+      <workItem from="1586786509298" duration="1628000" />
+      <workItem from="1586791321044" duration="1558000" />
     </task>
     <servers />
   </component>
@@ -341,30 +344,30 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586774433380">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586786763738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586774433380" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586786763738" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586430964576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586430964576" />
-    <state width="1493" height="200" key="GridCell.Tab.0.bottom" timestamp="1586778839533">
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1586788138221">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586778839533" />
-    <state width="1493" height="200" key="GridCell.Tab.0.center" timestamp="1586778839533">
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586788138221" />
+    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1586788138221">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586778839533" />
-    <state width="1493" height="200" key="GridCell.Tab.0.left" timestamp="1586778839533">
+    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586788138221" />
+    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1586788138220">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586778839533" />
-    <state width="1493" height="200" key="GridCell.Tab.0.right" timestamp="1586778839533">
+    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586788138220" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1586788138221">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="200" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586778839533" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586788138221" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1586254956492">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

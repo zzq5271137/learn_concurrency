@@ -35,6 +35,9 @@ package _07_Lock._01_Intro;
  *     即, 带参数的tryLock()方法, 与不带参数的tryLock()区别在于, 这个方法有一个超时时间, 拿不到锁会等待, 超时就放弃;
  *     详见TryLockDemo.java
  * 4). lockInterruptibly()
+ *     此方法相当于tryLock(long time, TimeUnit unit)方法把超时时间设置为无限;
+ *     在等待锁的过程中, 线程可以被中断(可以响应interrupt()请求);
+ *     详见LockInterruptiblyDemo.java
  */
 
 public class Intro {

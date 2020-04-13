@@ -118,7 +118,7 @@ package _02_JavaMemoryModel._03_FieldVisibility;
  * 1. 程序次序规则(单线程规则)
  *    在一个单独的线程中, 按照程序代码的执行流顺序, (时间上)先执行的操作happens—before于(时间上)后执行的操作;
  *    即, 同一个线程中前面的所有写操作对后面的操作可见;
- * 2. 管理锁定规则(synchronized关键字和Lock)
+ * 2. 监视器锁规则(即synchronized关键字使用的Monitor锁的规则, 对Lock锁同样适用)
  *    一个unlock操作happens—before于后面(时间上的先后顺序)对同一个锁的lock操作;
  *    即, 当线程A在同步代码块内执行完成并释放了锁, 然后线程B进入相同同步代码块并获得了锁, 线程A解锁之前的写操作都对线程B可见;
  *    这其实就是为什么synchronized关键字和Lock具有数据可见性的原因;
