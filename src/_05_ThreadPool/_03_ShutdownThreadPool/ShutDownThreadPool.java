@@ -41,17 +41,6 @@ class ShutDownThreadPoolTask implements Runnable {
 public class ShutDownThreadPool {
     static ExecutorService executorService = Executors.newFixedThreadPool(10);
 
-    public static void main(String[] args) throws InterruptedException {
-        for (int i = 0; i < 100; i++) {
-            executorService.execute(new ShutDownThreadPoolTask());
-        }
-        Thread.sleep(1500);
-
-        // testShutdown();
-        // testAwaitTermination();
-        // testShutdownNow();
-    }
-
     private static void testShutdown() throws InterruptedException {
         System.out.println("调用shutdown()前, isShutdown(): " + executorService.isShutdown());
         executorService.shutdown();
@@ -78,5 +67,16 @@ public class ShutDownThreadPool {
     private static void testShutdownNow() {
         List<Runnable> tasksInQueue = executorService.shutdownNow();
         System.out.println("还在队列中的任务数: " + tasksInQueue.size());
+    }
+
+    public static void main(String[] args) throws InterruptedException {
+        for (int i = 0; i < 100; i++) {
+            executorService.execute(new ShutDownThreadPoolTask());
+        }
+        Thread.sleep(1500);
+
+        // testShutdown();
+        // testAwaitTermination();
+        // testShutdownNow();
     }
 }

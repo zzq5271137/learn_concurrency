@@ -90,6 +90,5 @@ package _04_ConcurrentToolsIntro;
 
 public class ConcurrentToolsIntro {
     public static void main(String[] args) {
-
     }
 }
