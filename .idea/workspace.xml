@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_06_ThreadLocal/_04_ThreadLocalTips/ThreadLocalTips.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_06_ThreadLocal/_01_HowToUse/ThreadLocalNormalUsage05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_06_ThreadLocal/_01_HowToUse/ThreadLocalNormalUsage05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -325,7 +324,7 @@
       <workItem from="1586518628236" duration="6287000" />
       <workItem from="1586592690252" duration="7338000" />
       <workItem from="1586603910805" duration="4963000" />
-      <workItem from="1586751352705" duration="7532000" />
+      <workItem from="1586751352705" duration="7591000" />
     </task>
     <servers />
   </component>

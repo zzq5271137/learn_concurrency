@@ -38,7 +38,7 @@ public class ThreadLocalNormalUsage05 {
         Date date = new Date(1000 * seconds);
         SimpleDateFormat sdf = ThreadDateFormatter.get();
 
-        // System.identityHashCode()获取对象的真实地址
+        // 使用System.identityHashCode()获取对象的真实地址
         System.out.println(Thread.currentThread().getName() + ": " + System.identityHashCode(sdf));
 
         return sdf.format(date);
