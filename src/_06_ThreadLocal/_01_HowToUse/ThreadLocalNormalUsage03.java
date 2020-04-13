@@ -19,10 +19,13 @@ public class ThreadLocalNormalUsage03 {
     private static ExecutorService threadPool = Executors.newFixedThreadPool(10);
     private static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS z Z");
 
-    public String date(int seconds) {
+    public void date(int seconds) {
         // Date的这个构造方法传入的是毫秒, 从1970.01.01 00:00:00 GMT开始计算, 算出一个日期然后返回
         Date date = new Date(1000 * seconds);
-        return sdf.format(date);
+
+        // 使用System.identityHashCode()获取对象的真实地址
+        System.out.println(Thread.currentThread().getName() + ": "
+                + System.identityHashCode(sdf) + ", " + sdf.format(date));
     }
 
     public static void main(String[] args) throws InterruptedException {
@@ -31,7 +34,7 @@ public class ThreadLocalNormalUsage03 {
             threadPool.submit(new Runnable() {
                 @Override
                 public void run() {
-                    System.out.println(new ThreadLocalNormalUsage03().date(finalI));
+                    new ThreadLocalNormalUsage03().date(finalI);
                 }
             });
         }
