@@ -24,12 +24,12 @@ package _06_ThreadLocal._03_ReferencesTypes;
  */
 
 public class StrongReferenceDemo {
-    public static void main(String[] args) {
-        new StrongReferenceDemo().method1();
-    }
-
     public void method1() {
         Object object = new Object();
         Object[] objArr = new Object[Integer.MAX_VALUE];
+    }
+
+    public static void main(String[] args) {
+        new StrongReferenceDemo().method1();
     }
 }

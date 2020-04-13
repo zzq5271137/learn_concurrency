@@ -23,6 +23,11 @@ package _06_ThreadLocal._04_ThreadLocalTips;
  * 并把对应的value设置为null(打开value所指向的对象的强引用), 这样, value所指向的对象就可以被回收了;
  * 但是如果一个ThreadLocal不再被使用, 那么实际上set()、remove()、rehash()、resize()这些方法也不会被调用,
  * 所以依然有value内存泄漏的可能;
+ *
+ * 在阿里规约中, 规定了如何避免内存泄漏, 就是调用remove()方法, 就会删除对应的Entry对象, 可以避免内存泄漏;
+ * 所以, 在使用完ThreadLocal之后, 应该主动地调用remove()方法; 例如ThreadLocalNormalUsage06.java中的例子;
+ * 在实际开发中, 我们如果是用拦截器的方法获取到用户信息并存入ThreadLocal, 那同样应该用拦截器的方法,
+ * 在这个线程退出之前拦截住它, 并且把ThreadLocal中刚才保存的用户信息清除掉;
  */
 
 public class ThreadLocalTips {

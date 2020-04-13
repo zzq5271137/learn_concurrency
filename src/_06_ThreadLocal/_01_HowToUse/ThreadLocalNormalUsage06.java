@@ -23,6 +23,10 @@ class UserContextHolder {
     public static void set(User user) {
         userHolder.set(user);
     }
+
+    public static void remove() {
+        userHolder.remove();
+    }
 }
 
 // 接收请求, 生成user对象的service, 对应到实际场景可以是过滤器或者拦截器
@@ -47,6 +51,16 @@ class Service3 {
     public void process() {
         User user = UserContextHolder.get();
         System.out.println(Thread.currentThread().getName() + "在Service3中处理用户(" + user.name + ")的请求...");
+
+        /*
+         * 假设这个Service3是整个业务流程中最后调用ThreadLocal的地方,
+         * 所以这里我们应该主动调用remove()方法, 以防止内存泄漏;
+         * 详见ThreadLocalTips.java
+         *
+         * 在实际开发中, 我们如果是用拦截器的方法获取到用户信息并存入ThreadLocal, 那同样应该用拦截器的方法,
+         * 在这个线程退出之前拦截住它, 并且把ThreadLocal中刚才保存的用户信息清除掉;
+         */
+        UserContextHolder.remove();
     }
 }
 
