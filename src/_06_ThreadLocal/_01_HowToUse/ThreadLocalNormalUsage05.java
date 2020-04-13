@@ -37,6 +37,10 @@ public class ThreadLocalNormalUsage05 {
         // Date的这个构造方法传入的是毫秒, 从1970.01.01 00:00:00 GMT开始计算, 算出一个日期然后返回
         Date date = new Date(1000 * seconds);
         SimpleDateFormat sdf = ThreadDateFormatter.get();
+
+        // System.identityHashCode()获取对象的真实地址
+        System.out.println(Thread.currentThread().getName() + ": " + System.identityHashCode(sdf));
+
         return sdf.format(date);
     }
 
