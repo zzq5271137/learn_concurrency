@@ -11,6 +11,15 @@ package _07_Lock._04_TypesOfLock.ReentrantLock;
  *
  * synchronized是可重入锁, Lock接口的一个实现类ReentrantLock也是可重入锁;
  *
+ * 在下面的例子中, 这里的对象锁只有一个, 就是child对象的锁, 当执行child.doSomething时, 该线程获得child对象的锁,
+ * 在doSomething方法内执行doAnotherThing时再次请求child对象的锁, 因为synchronized是重入锁, 所以可以得到该锁,
+ * 继续在doAnotherThing里执行父类的doSomething方法时第三次请求child对象的锁, 同样可得到;
+ * 如果不是重入锁的话, 那后面这两次请求锁将会被一直阻塞, 从而导致死锁;
+ * 所以在java内部, 同一线程在调用自己类中其他synchronized方法/块或调用父类的synchronized方法/块都不会阻碍该线程的执行;
+ * 就是说同一线程对同一个对象锁是可重入的, 而且同一个线程可以获取同一把锁多次, 也就是可以多次重入;
+ * 因为java线程是基于"每线程(per-thread)", 而不是基于"每调用(per-invocation)"的
+ * (java中线程获得对象锁的操作是以线程为粒度的, per-invocation互斥体获得对象锁的操作是以每调用作为粒度的);
+ *
  * 可重入锁实现可重入性原理或机制是:
  * 每一个锁关联一个线程持有者和计数器, 当计数器为0时表示该锁没有被任何线程持有, 那么任何线程都可能获得该锁而调用相应的方法;
  * 当某一线程请求成功后, JVM会记下锁的持有线程, 并且将计数器置为1; 此时其它线程请求该锁, 则必须等待;
@@ -18,7 +27,28 @@ package _07_Lock._04_TypesOfLock.ReentrantLock;
  * 当线程退出同步代码块时, 计数器会递减, 如果计数器为0, 则释放该锁;
  */
 
+class FatherClass {
+    public synchronized void doSomething() {
+        System.out.println("father.doSomething: " + Thread.currentThread().getName());
+    }
+}
+
+class ChildClass extends FatherClass {
+    @Override
+    public synchronized void doSomething() {
+        System.out.println("child.doSomething: " + Thread.currentThread().getName());
+        doAnotherThing();
+    }
+
+    private synchronized void doAnotherThing() {
+        super.doSomething();
+        System.out.println("child.doAnotherThing: " + Thread.currentThread().getName());
+    }
+}
+
 public class ReentrantLock {
     public static void main(String[] args) {
+        ChildClass child = new ChildClass();
+        child.doSomething();
     }
 }

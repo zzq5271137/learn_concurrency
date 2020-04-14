@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_05_SynchronizedProperties/ReentrantDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_05_SynchronizedProperties/ReentrantDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLockDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_06_ThreadLocal/_01_HowToUse/LambdaExpression" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -76,11 +75,12 @@
       <recent name="_06_ThreadLocal._01_HowToUse" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_07_Lock\_04_TypesOfLock\ReentrantLock" />
       <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_06_ThreadLocal\_01_HowToUse\LambdaExpression" />
       <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_03_DeadLock\_05_FixDeadLocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LockInterruptiblyDemo">
+  <component name="RunManager" selected="Application.ReentrantLock">
     <configuration name="LockInterruptiblyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_07_Lock._02_LockDemos.LockInterruptiblyDemo" />
       <module name="Learn_Concurrency" />
@@ -94,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MustUnlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_07_Lock._02_LockDemos.MustUnlock" />
+    <configuration name="ReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_07_Lock._04_TypesOfLock.ReentrantLock.ReentrantLock" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_07_Lock._02_LockDemos.*" />
+          <option name="PATTERN" value="_07_Lock._04_TypesOfLock.ReentrantLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalNPE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_06_ThreadLocal._05_NullPointerExeceptionInThreadLocal.ThreadLocalNPE" />
+    <configuration name="ReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_07_Lock._04_TypesOfLock.ReentrantLock.ReentrantLockDemo" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_06_ThreadLocal._05_NullPointerExeceptionInThreadLocal.*" />
+          <option name="PATTERN" value="_07_Lock._04_TypesOfLock.ReentrantLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -252,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReentrantLock" />
+        <item itemvalue="Application.ReentrantLockDemo" />
         <item itemvalue="Application.LockInterruptiblyDemo" />
         <item itemvalue="Application.TryLockDemo (1)" />
         <item itemvalue="Application.TryLockDemo" />
-        <item itemvalue="Application.MustUnlock" />
-        <item itemvalue="Application.ThreadLocalNPE" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +336,9 @@
       <workItem from="1586835776869" duration="7840000" />
       <workItem from="1586845341804" duration="20000" />
       <workItem from="1586845402911" duration="22000" />
-      <workItem from="1586856502354" duration="1881000" />
+      <workItem from="1586856502354" duration="1966000" />
+      <workItem from="1586859179998" duration="120000" />
+      <workItem from="1586859315873" duration="996000" />
     </task>
     <servers />
   </component>
@@ -355,26 +357,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586430964576" />
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1586788138221">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1586860310104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586788138221" />
-    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1586788138221">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586860310104" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1586860310103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586788138221" />
-    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1586788138220">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586860310103" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1586860310103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586788138220" />
-    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1586788138221">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586860310103" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1586860310104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586788138221" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1586254956492">
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586860310104" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1586859299986">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586254956492" />
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586859299986" />
     <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1586768494038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
