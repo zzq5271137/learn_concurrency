@@ -10,6 +10,7 @@ package _07_Lock._04_TypesOfLock.ReentrantLock;
  * 当线程请求一个由其它线程持有的对象锁时, 该线程会阻塞, 而当线程请求由自己持有的对象锁时, 如果该锁是重入锁, 请求就会成功, 否则阻塞;
  *
  * synchronized是可重入锁, Lock接口的一个实现类ReentrantLock也是可重入锁;
+ * ThreadPoolExecutor的Worker类是非可重入锁;
  *
  * 在下面的例子中, 这里的对象锁只有一个, 就是child对象的锁, 当执行child.doSomething时, 该线程获得child对象的锁,
  * 在doSomething方法内执行doAnotherThing时再次请求child对象的锁, 因为synchronized是重入锁, 所以可以得到该锁,

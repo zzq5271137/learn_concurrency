@@ -22,5 +22,6 @@ public class ReentrantLockDemo {
         lock.unlock();
         System.out.println(lock.getHoldCount());
         lock.unlock();
+        System.out.println(lock.getHoldCount());
     }
 }
