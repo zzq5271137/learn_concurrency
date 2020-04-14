@@ -12,7 +12,7 @@ package _01_EightCores._04_Core4_LifeCycle.SynchronizedDemos._05_SynchronizedPro
  * 通俗来说:
  * 当线程请求一个由其它线程持有的对象锁时, 该线程会阻塞, 而当线程请求由自己持有的对象锁时, 如果该锁是重入锁, 请求就会成功, 否则阻塞;
  *
- * synchronized是可重入锁;
+ * synchronized是可重入锁, 之后要讲的Lock接口的一个实现类ReentrantLock也是可重入锁;
  *
  * 在下面的例子中, 这里的对象锁只有一个, 就是child对象的锁, 当执行child.doSomething时, 该线程获得child对象的锁,
  * 在doSomething方法内执行doAnotherThing时再次请求child对象的锁, 因为synchronized是重入锁, 所以可以得到该锁,
@@ -23,7 +23,7 @@ package _01_EightCores._04_Core4_LifeCycle.SynchronizedDemos._05_SynchronizedPro
  * 因为java线程是基于"每线程(per-thread)", 而不是基于"每调用(per-invocation)"的
  * (java中线程获得对象锁的操作是以线程为粒度的, per-invocation互斥体获得对象锁的操作是以每调用作为粒度的);
  *
- * 重入锁实现可重入性原理或机制是:
+ * 可重入锁实现可重入性原理或机制是:
  * 每一个锁关联一个线程持有者和计数器, 当计数器为0时表示该锁没有被任何线程持有, 那么任何线程都可能获得该锁而调用相应的方法;
  * 当某一线程请求成功后, JVM会记下锁的持有线程, 并且将计数器置为1; 此时其它线程请求该锁, 则必须等待;
  * 而该持有锁的线程如果再次请求这个锁, 就可以再次拿到这个锁, 同时计数器会递增;

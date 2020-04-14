@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/OptimisticPessimisticLock/OptimisticPessimisticLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/TypesOfLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_05_SynchronizedProperties/ReentrantDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_01_EightCores/_04_Core4_LifeCycle/SynchronizedDemos/_05_SynchronizedProperties/ReentrantDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,6 +335,8 @@
       <workItem from="1586795828466" duration="584000" />
       <workItem from="1586835776869" duration="7840000" />
       <workItem from="1586845341804" duration="20000" />
+      <workItem from="1586845402911" duration="22000" />
+      <workItem from="1586856502354" duration="1881000" />
     </task>
     <servers />
   </component>
