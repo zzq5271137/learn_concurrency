@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/FairUnfairLock/FairUnfairLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock/OtherMethodsInReentrantLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock/RecursionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ShareExclusiveLock/ShareExclusiveLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/ReentrantLock/ChildClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/ReentrantLock/ChildClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/ReentrantLock/FatherClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/ReentrantLock/FatherClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLockDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock/ReentrantLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/TypesOfLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/TypesOfLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ShareExclusiveLock/ReadLockNonFairBarge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ShareExclusiveLock/ReadWriteLockPolicies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ShareExclusiveLock/UpgradeDowngradeReadWriteLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/FairUnfairLock/FairUnfairLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/FairUnfairLock/FairUnfairLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/FairUnfairLock/PrintQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/FairUnfairLock/PrintQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/FairUnfairLock/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/FairUnfairLock/Printer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/FairUnfairLock/FairUnfairLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/FairUnfairLock/FairUnfairLock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +85,7 @@
       <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_03_DeadLock\_05_FixDeadLocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShareExclusiveLock">
+  <component name="RunManager" selected="Application.ReadLockNonFairBarge">
     <configuration name="FairUnfairLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_07_Lock._04_TypesOfLock.FairUnfairLock.FairUnfairLock" />
       <module name="Learn_Concurrency" />
@@ -116,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_07_Lock._04_TypesOfLock.ReentrantLock.RecursionDemo" />
+    <configuration name="ReadLockNonFairBarge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_07_Lock._04_TypesOfLock.ShareExclusiveLock.ReadLockNonFairBarge" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_07_Lock._04_TypesOfLock.ReentrantLock.*" />
+          <option name="PATTERN" value="_07_Lock._04_TypesOfLock.ShareExclusiveLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_07_Lock._04_TypesOfLock.ReentrantLock.ReentrantLockDemo" />
+    <configuration name="ReadWriteLockPolicies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_07_Lock._04_TypesOfLock.ShareExclusiveLock.ReadWriteLockPolicies" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_07_Lock._04_TypesOfLock.ReentrantLock.*" />
+          <option name="PATTERN" value="_07_Lock._04_TypesOfLock.ShareExclusiveLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadLockNonFairBarge" />
+        <item itemvalue="Application.ReadWriteLockPolicies" />
         <item itemvalue="Application.ShareExclusiveLock" />
         <item itemvalue="Application.FairUnfairLock" />
         <item itemvalue="Application.OtherMethodsInReentrantLock" />
-        <item itemvalue="Application.RecursionDemo" />
-        <item itemvalue="Application.ReentrantLockDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -351,6 +347,7 @@
       <workItem from="1586864663559" duration="3354000" />
       <workItem from="1586868042253" duration="23000" />
       <workItem from="1586875971915" duration="3415000" />
+      <workItem from="1586919391792" duration="18718000" />
     </task>
     <servers />
   </component>
@@ -369,26 +366,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586430964576" />
-    <state width="1493" height="215" key="GridCell.Tab.0.bottom" timestamp="1586879389450">
+    <state width="1493" height="168" key="GridCell.Tab.0.bottom" timestamp="1586948594318">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="215" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586879389450" />
-    <state width="1493" height="215" key="GridCell.Tab.0.center" timestamp="1586879389450">
+    <state width="1493" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586948594318" />
+    <state width="1493" height="168" key="GridCell.Tab.0.center" timestamp="1586948594318">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="215" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586879389450" />
-    <state width="1493" height="215" key="GridCell.Tab.0.left" timestamp="1586879389449">
+    <state width="1493" height="168" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586948594318" />
+    <state width="1493" height="168" key="GridCell.Tab.0.left" timestamp="1586948594318">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="215" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586879389449" />
-    <state width="1493" height="215" key="GridCell.Tab.0.right" timestamp="1586879389450">
+    <state width="1493" height="168" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586948594318" />
+    <state width="1493" height="168" key="GridCell.Tab.0.right" timestamp="1586948594318">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="215" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586879389450" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1586864674125">
+    <state width="1493" height="168" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586948594318" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1586936486063">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586864674125" />
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586936486063" />
     <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1586768494038">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -401,9 +398,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586521247740" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586838373994">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586944374779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586838373994" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586944374779" />
   </component>
 </project>
