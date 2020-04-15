@@ -10,7 +10,7 @@ package _07_Lock._04_TypesOfLock.ShareExclusiveLock;
  *    那么是否允许线程C免去在等待队列中排队而去直接获得读锁(因为读锁可以多个线程同时持有), 还是需要排在线程B之后呢?
  *    如果选择允许让线程C插队, 看上去整体的执行效率会更高, 但这会带来什么问题呢?
  * 2. 升降级
- *    读锁和写锁其实不是平等的, 我们能看出来写锁拥有更大的权力; 那我们允许锁的升降级吗?
+ *    读锁和写锁其实不是平等的, 我们能看出来写锁拥有更大的权力, 是更高级的锁; 那我们允许锁的升降级吗?
  *    比如, 当一个线程持有写锁, 允不允许它在不释放写锁的情况下直接去获取读锁呢(即降级)?
  *    又或者, 当一个线程持有读锁, 允不允许它在不释放读锁的情况下直接去获取写锁呢(即升级)?
  *
@@ -82,10 +82,9 @@ public class ReadWriteLockPolicies {
     }
 
     public static void main(String[] args) {
-        new Thread(ReadWriteLockPolicies::write, "WriteThread_1").start();
         new Thread(ReadWriteLockPolicies::read, "ReadThread_1").start();
         new Thread(ReadWriteLockPolicies::read, "ReadThread_2").start();
-        new Thread(ReadWriteLockPolicies::write, "WriteThread_2").start();
+        new Thread(ReadWriteLockPolicies::write, "WriteThread_1").start();
 
         // 这个线程不能插队, 因为此时队列头结点是一个想要获取写锁的线程
         new Thread(ReadWriteLockPolicies::read, "ReadThread_3").start();
