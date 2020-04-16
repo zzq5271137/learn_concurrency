@@ -28,8 +28,11 @@ public class UpgradeDowngradeReadWriteLock {
 
             // 尝试升级(会失败, 线程会进入阻塞)
             System.out.println(Thread.currentThread().getName() + "尝试获取写锁");
-            writeLock.tryLock(3, TimeUnit.SECONDS);
-            System.out.println(Thread.currentThread().getName() + "获取写锁失败, 暂时放弃");
+            if (writeLock.tryLock(3, TimeUnit.SECONDS)) {
+                System.out.println(Thread.currentThread().getName() + "得到了写锁");
+            } else {
+                System.out.println(Thread.currentThread().getName() + "获取写锁失败, 暂时放弃");
+            }
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {

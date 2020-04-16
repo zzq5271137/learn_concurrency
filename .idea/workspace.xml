@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ShareExclusiveLock/DowngradeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/FairUnfairLock/FairUnfairLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/FairUnfairLock/FairUnfairLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/FairUnfairLock/PrintQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/FairUnfairLock/PrintQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/FairUnfairLock/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/FairUnfairLock/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/ShareExclusiveLock/ReadWriteLockPolicies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/ShareExclusiveLock/ReadWriteLockPolicies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ShareExclusiveLock/ReadWriteLockPolicies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ShareExclusiveLock/ReadWriteLockPolicies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/InterruptableLock/InterruptableLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/SpinBlockedLock/MySpinLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/SpinBlockedLock/SpinBlockedLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/ShareExclusiveLock/UpgradeDowngradeReadWriteLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/ShareExclusiveLock/UpgradeDowngradeReadWriteLock.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ShareExclusiveLock/UpgradeDowngradeReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ShareExclusiveLock/UpgradeDowngradeReadWriteLock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,13 +83,13 @@
       <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_03_DeadLock\_05_FixDeadLocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadWriteLockPolicies">
-    <configuration name="FairUnfairLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_07_Lock._04_TypesOfLock.FairUnfairLock.FairUnfairLock" />
+  <component name="RunManager" selected="Application.MySpinLock">
+    <configuration name="MySpinLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_07_Lock._04_TypesOfLock.SpinBlockedLock.MySpinLock" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_07_Lock._04_TypesOfLock.FairUnfairLock.*" />
+          <option name="PATTERN" value="_07_Lock._04_TypesOfLock.SpinBlockedLock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReadWriteLockPolicies" />
+        <item itemvalue="Application.MySpinLock" />
         <item itemvalue="Application.UpgradeDowngradeReadWriteLock" />
+        <item itemvalue="Application.ReadWriteLockPolicies" />
         <item itemvalue="Application.ReadLockNonFairBarge" />
         <item itemvalue="Application.ShareExclusiveLock" />
-        <item itemvalue="Application.FairUnfairLock" />
       </list>
     </recent_temporary>
   </component>
@@ -348,6 +346,8 @@
       <workItem from="1586868042253" duration="23000" />
       <workItem from="1586875971915" duration="3415000" />
       <workItem from="1586919391792" duration="23481000" />
+      <workItem from="1586962321666" duration="2220000" />
+      <workItem from="1587008528256" duration="5530000" />
     </task>
     <servers />
   </component>
@@ -358,34 +358,34 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586865318168">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1587009781014">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1586865318168" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587009781014" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586430964576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586430964576" />
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1586958716319">
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1587011138031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586958716319" />
-    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1586958716319">
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587011138031" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1587011138031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586958716319" />
-    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1586958716319">
+    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587011138031" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1587011138031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586958716319" />
-    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1586958716319">
+    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587011138031" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1587011138031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586958716319" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1586936486063">
+    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587011138031" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1587009967409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586936486063" />
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587009967409" />
     <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1586958654538">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
