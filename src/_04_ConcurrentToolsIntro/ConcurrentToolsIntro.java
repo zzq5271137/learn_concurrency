@@ -30,7 +30,8 @@ package _04_ConcurrentToolsIntro;
  *        d). Atomic*FieldUpdater升级原子类
  *            i). AtomicIntegerFieldUpdater: 原子更新整形字段的更新器
  *            ii). AtomicLongFieldUpdater: 原子更新长整形字段的更新器
- *        e). Adder加法器
+ *            iii). AtomicReferenceFieldUpdater: 原子更新引用类型字段的更新器
+ *        e). Adder累加器
  *            i). LongAdder
  *            ii). DoubleAdder
  *        f). Accumulator累加器

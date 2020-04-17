@@ -7,8 +7,8 @@ package _02_JavaMemoryModel._04_Atomicity;
  * 原子性是指, 对于一系列的操作, 要么全部执行成功, 要么全部不执行, 不会出现执行一半的情况;
  *
  * Java中原生的原子操作:
- * 1. 除long和double之外的基本数据类型(int, byte, boolean, short, char, float)的读取和写入(赋值)操作;
- * 2. 所有引用类型(reference)的读取和写入(赋值)操作, 不管是32位机器还是64位机器;
+ * 1. 除long和double之外的基本数据类型(int, byte, boolean, short, char, float)的单个的读取和写入(赋值)操作;
+ * 2. 所有引用类型(reference)的单个的读取和写入(赋值)操作, 不管是32位机器还是64位机器;
  * 3. java.util.concurrent.atomic.*包中所有类的原子操作;
  *
  * JMM并不保证对64位的long型和double型变量的读/写操作具有原子性:
