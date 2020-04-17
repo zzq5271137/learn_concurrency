@@ -24,7 +24,7 @@ package _07_Lock._04_TypesOfLock.SpinBlockedLock;
  *
  * 使用自旋锁的例子以及自旋锁的原理:
  * 在java1.5及以上版本的并发框架java.util.concurrent的atomic包下的类基本都是自旋锁的实现;
- * 自旋锁的实现原理是CAS(CompareAndSet); AtomicInteger中调用unsafe进行自增操作的源码中的do-while循环就是一个自旋操作,
+ * 自旋锁的实现原理是CAS(Compare-And-Swap); AtomicInteger中调用unsafe进行自增操作的源码中的do-while循环就是一个自旋操作,
  * 如果修改过程中遇到其他线程竞争资源导致没修改成功, 就在while里死循环, 直至修改成功;
  *
  * 自旋锁的应用场景:

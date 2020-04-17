@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_08_Atomic/_01_Intro/Intro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_08_Atomic/_02_AtomicInteger/AtomicInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_08_Atomic/_02_AtomicInteger/AtomicIntegerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_08_Atomic/_03_AtomicArray/AtomicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_08_Atomic/_03_AtomicArray/AtomicIntegerArrayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_08_Atomic/_04_AtomicReference/AtomicReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_08_Atomic/_04_AtomicReference/AtomicReferenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_08_Atomic/_05_AtomicFieldUpdater/AtomicFieldUpdater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_08_Atomic/_05_AtomicFieldUpdater/AtomicIntegerFieldUpdaterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_08_Atomic/_06_Adder/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_08_Atomic/_06_Adder/AtomicLongDrawbackDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_08_Atomic/_06_Adder/LongAdderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_08_Atomic/_07_Accumulator/Accumulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_08_Atomic/_07_Accumulator/LongAccumulatorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_04_ConcurrentToolsIntro/ConcurrentToolsIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_04_ConcurrentToolsIntro/ConcurrentToolsIntro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/SpinBlockedLock/SpinBlockedLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/SpinBlockedLock/SpinBlockedLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_04_Atomicity/Atomicity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_02_JavaMemoryModel/_04_Atomicity/Atomicity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_04_ConcurrentToolsIntro/ConcurrentToolsIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_04_ConcurrentToolsIntro/ConcurrentToolsIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_09_CAS/_01_Intro/Intro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/SpinBlockedLock/SpinBlockedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/SpinBlockedLock/SpinBlockedLock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,7 +348,9 @@
       <workItem from="1587008528256" duration="12282000" />
       <workItem from="1587046238981" duration="1986000" />
       <workItem from="1587089673956" duration="6664000" />
-      <workItem from="1587097393514" duration="5463000" />
+      <workItem from="1587097393514" duration="5522000" />
+      <workItem from="1587119070516" duration="1736000" />
+      <workItem from="1587125494808" duration="1418000" />
     </task>
     <servers />
   </component>
@@ -383,22 +369,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586430964576" />
-    <state width="1493" height="176" key="GridCell.Tab.0.bottom" timestamp="1587112169308">
+    <state width="1493" height="176" key="GridCell.Tab.0.bottom" timestamp="1587112222066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="176" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587112169308" />
-    <state width="1493" height="176" key="GridCell.Tab.0.center" timestamp="1587112169308">
+    <state width="1493" height="176" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587112222066" />
+    <state width="1493" height="176" key="GridCell.Tab.0.center" timestamp="1587112222066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="176" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587112169308" />
-    <state width="1493" height="176" key="GridCell.Tab.0.left" timestamp="1587112169308">
+    <state width="1493" height="176" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587112222066" />
+    <state width="1493" height="176" key="GridCell.Tab.0.left" timestamp="1587112222066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="176" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587112169308" />
-    <state width="1493" height="176" key="GridCell.Tab.0.right" timestamp="1587112169308">
+    <state width="1493" height="176" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587112222066" />
+    <state width="1493" height="176" key="GridCell.Tab.0.right" timestamp="1587112222066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="176" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587112169308" />
+    <state width="1493" height="176" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587112222066" />
     <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1587096886382">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -419,10 +405,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587009967409" />
-    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1586958654538">
+    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1587119110556">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1586958654538" />
+    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1587119110556" />
     <state x="174" y="36" key="new project wizard" timestamp="1586608677489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -431,9 +417,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586521247740" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586956090594">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587135411111">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586956090594" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587135411111" />
   </component>
 </project>
