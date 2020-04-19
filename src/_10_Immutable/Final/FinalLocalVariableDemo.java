@@ -1,10 +1,10 @@
 package _10_Immutable.Final;
 
 /*
- * 演示final修饰的本地变量;
+ * 演示final修饰的局部变量;
  *
- * 这种场景下, 并不规定赋值时机, 只要求在使用前必须赋值, 就和普通的本地变量一样,
- * 只不过final的本地变量只能被赋值一次;
+ * 这种场景下, 并不规定赋值时机, 只要求在使用前必须赋值, 就和普通的局部变量一样,
+ * 只不过final的局部变量只能被赋值一次;
  */
 
 public class FinalLocalVariableDemo {

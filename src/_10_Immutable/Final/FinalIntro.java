@@ -26,9 +26,9 @@ package _10_Immutable.Final;
  *        那么在加载该类时, 该赋值语句实际上是放进static代码块中运行的;
  *        对于一个final修饰的静态属性, 这2种赋值时机的使用规则是, 必须选择一个, 而且只能选择一个;
  *        详见FinalStaticVariableDemo.java
- *    c). final local variable, 即方法中的final本地变量
- *        这种场景下, 并不规定赋值时机, 只要求在使用前必须赋值, 就和普通的本地变量一样,
- *        只不过final的本地变量只能被赋值一次;
+ *    c). final local variable, 即方法中的final局部变量
+ *        这种场景下, 并不规定赋值时机, 只要求在使用前必须赋值, 就和普通的局部变量一样,
+ *        只不过final的局部变量只能被赋值一次;
  *        详见FinalLocalVariableDemo.java
  * 2. 修饰方法:
  *    表示方法不能被重写; 但是final不能修饰构造方法;

@@ -2,23 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_09_CAS/CASDrawbacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_09_CAS/CASInAtomicPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_09_CAS/SimulateCAS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_09_CAS/TwoThreadCompetition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/Final/FinalClassDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/Final/FinalInstanceVariableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/Final/FinalIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/Final/FinalLocalVariableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/Final/FinalMethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/Final/FinalStaticVariableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/ImmutableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/Intro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/SpinBlockedLock/SpinBlockedLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_04_TypesOfLock/SpinBlockedLock/SpinBlockedLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_09_CAS/_01_Intro/Intro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/OptimisticPessimisticLock/OptimisticPessimisticLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/OptimisticPessimisticLock/OptimisticPessimisticLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/SpinBlockedLock/SpinBlockedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/SpinBlockedLock/SpinBlockedLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_09_CAS/_01_Intro/Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_09_CAS/Intro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/ImmutableObjectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/StackConfinement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/StringPoolDemos/FinalStringDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/StringPoolDemos/FinalStringDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/StringPoolDemos/StringPoolDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/StringPoolDemos/StringPoolDemo2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/StringPoolDemos/StringPoolDemo2_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/StringPoolDemos/StringPoolDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/StringPoolDemos/StringPoolDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/StringPoolDemos/StringPoolDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/StringPoolDemos/StringPoolDemo6_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/StringPoolDemos/StringPoolDemo6_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/StringPoolDemos/StringPoolDemo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_Immutable/StringPoolDemos/StringPoolIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_10_Immutable/Final/FinalIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_10_Immutable/Final/FinalIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_10_Immutable/Intro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_10_Immutable/Intro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_10_Immutable/Final/FinalIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_10_Immutable/Final/FinalIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_10_Immutable/Final/FinalLocalVariableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_10_Immutable/Final/FinalLocalVariableDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_10_Immutable/Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_10_Immutable/Intro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,10 +88,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_10_Immutable.StringPoolDemos" />
+      <recent name="_10_Immutable" />
       <recent name="_09_CAS" />
       <recent name="_08_Atomic._06_AdderAndAccumulator" />
       <recent name="_06_ThreadLocal._01_HowToUse.LambdaExpression" />
-      <recent name="_06_ThreadLocal._01_HowToUse" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_07_Lock\_04_TypesOfLock\ReentrantLock" />
@@ -97,13 +100,13 @@
       <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_03_DeadLock\_05_FixDeadLocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FinalMethodDemo">
-    <configuration name="FinalLocalVariableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_10_Immutable.Final.FinalLocalVariableDemo" />
+  <component name="RunManager" selected="Application.StringPoolDemo7">
+    <configuration name="StringPoolDemo2_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_Immutable.StringPoolDemos.StringPoolDemo2_1" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_10_Immutable.Final.*" />
+          <option name="PATTERN" value="_10_Immutable.StringPoolDemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_10_Immutable.Final.FinalMethodDemo" />
+    <configuration name="StringPoolDemo2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_Immutable.StringPoolDemos.StringPoolDemo2_2" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_10_Immutable.Final.*" />
+          <option name="PATTERN" value="_10_Immutable.StringPoolDemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinPrinciple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01_EightCores._05_Core5_CoreMethodsInThreadAndObjectClass.JoinPrinciple" />
+    <configuration name="StringPoolDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_Immutable.StringPoolDemos.StringPoolDemo3" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_01_EightCores._05_Core5_CoreMethodsInThreadAndObjectClass.*" />
+          <option name="PATTERN" value="_10_Immutable.StringPoolDemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoThreadCompetition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_09_CAS.TwoThreadCompetition" />
+    <configuration name="StringPoolDemo6_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_Immutable.StringPoolDemos.StringPoolDemo6_1" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_09_CAS.*" />
+          <option name="PATTERN" value="_10_Immutable.StringPoolDemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhyWaitNeedWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01_EightCores._05_Core5_CoreMethodsInThreadAndObjectClass.Examples.WhyWaitNeedWhile" />
+    <configuration name="StringPoolDemo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_Immutable.StringPoolDemos.StringPoolDemo7" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_01_EightCores._05_Core5_CoreMethodsInThreadAndObjectClass.Examples.*" />
+          <option name="PATTERN" value="_10_Immutable.StringPoolDemos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FinalMethodDemo" />
-        <item itemvalue="Application.FinalLocalVariableDemo" />
-        <item itemvalue="Application.TwoThreadCompetition" />
-        <item itemvalue="Application.WhyWaitNeedWhile" />
-        <item itemvalue="Application.JoinPrinciple" />
+        <item itemvalue="Application.StringPoolDemo7" />
+        <item itemvalue="Application.StringPoolDemo3" />
+        <item itemvalue="Application.StringPoolDemo2_2" />
+        <item itemvalue="Application.StringPoolDemo2_1" />
+        <item itemvalue="Application.StringPoolDemo6_1" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +371,9 @@
       <workItem from="1587119070516" duration="1736000" />
       <workItem from="1587125494808" duration="6282000" />
       <workItem from="1587140543951" duration="56000" />
-      <workItem from="1587175750870" duration="19064000" />
+      <workItem from="1587175750870" duration="27627000" />
+      <workItem from="1587270445629" duration="7019000" />
+      <workItem from="1587289139958" duration="2417000" />
     </task>
     <servers />
   </component>
@@ -379,54 +384,54 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1587179780010">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1587210645411">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587179780010" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587210645411" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586430964576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586430964576" />
-    <state width="1493" height="263" key="GridCell.Tab.0.bottom" timestamp="1587207661504">
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1587291561664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587207661504" />
-    <state width="1493" height="263" key="GridCell.Tab.0.center" timestamp="1587207661504">
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587291561664" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1587291561664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587207661504" />
-    <state width="1493" height="263" key="GridCell.Tab.0.left" timestamp="1587207661504">
+    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587291561664" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1587291561664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587207661504" />
-    <state width="1493" height="263" key="GridCell.Tab.0.right" timestamp="1587207661504">
+    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587291561664" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1587291561664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="263" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587207661504" />
-    <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1587181766229">
+    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587291561664" />
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1587225165838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587181766229" />
-    <state width="1493" height="266" key="GridCell.Tab.1.center" timestamp="1587181766229">
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587225165838" />
+    <state width="1493" height="266" key="GridCell.Tab.1.center" timestamp="1587225165838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587181766229" />
-    <state width="1493" height="266" key="GridCell.Tab.1.left" timestamp="1587181766229">
+    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587225165838" />
+    <state width="1493" height="266" key="GridCell.Tab.1.left" timestamp="1587225165838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587181766229" />
-    <state width="1493" height="266" key="GridCell.Tab.1.right" timestamp="1587181766229">
+    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587225165838" />
+    <state width="1493" height="266" key="GridCell.Tab.1.right" timestamp="1587225165838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587181766229" />
+    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587225165838" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1587138832413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587138832413" />
-    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1587193473579">
+    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1587216255683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1587193473579" />
+    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1587216255683" />
     <state x="174" y="36" key="new project wizard" timestamp="1586608677489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -435,9 +440,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587138472534" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587180967284">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587209400944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587180967284" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587209400944" />
   </component>
 </project>
