@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_01_Intro/HashtableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_01_Intro/Intro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_01_Intro/SynListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_01_Intro/SynMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_01_Intro/VectorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_01_MapIntro/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_01_MapIntro/MapIntro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_10_Immutable/StringPoolDemos/FinalStringDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_10_Immutable/StringPoolDemos/FinalStringDemo1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_10_Immutable/StringPoolDemos/FinalStringDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_10_Immutable/StringPoolDemos/FinalStringDemo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +77,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_11_ConcurrentContainer._01_Intro" />
       <recent name="_10_Immutable.StringPoolDemos" />
       <recent name="_10_Immutable" />
       <recent name="_09_CAS" />
       <recent name="_08_Atomic._06_AdderAndAccumulator" />
-      <recent name="_06_ThreadLocal._01_HowToUse.LambdaExpression" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_07_Lock\_04_TypesOfLock\ReentrantLock" />
@@ -83,13 +89,13 @@
       <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_03_DeadLock\_05_FixDeadLocks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FinalStringDemo1">
-    <configuration name="FinalStringDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_10_Immutable.StringPoolDemos.FinalStringDemo1" />
+  <component name="RunManager" selected="Application.MapDemo">
+    <configuration name="HashtableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_11_ConcurrentContainer._01_Intro.HashtableDemo" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_10_Immutable.StringPoolDemos.*" />
+          <option name="PATTERN" value="_11_ConcurrentContainer._01_Intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalStringDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_10_Immutable.StringPoolDemos.FinalStringDemo2" />
+    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_11_ConcurrentContainer._02_ConcurrentHashMap._01_MapIntro.MapDemo" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_10_Immutable.StringPoolDemos.*" />
+          <option name="PATTERN" value="_11_ConcurrentContainer._02_ConcurrentHashMap._01_MapIntro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPoolDemo2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_10_Immutable.StringPoolDemos.StringPoolDemo2_2" />
+    <configuration name="SynListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_11_ConcurrentContainer._01_Intro.SynListDemo" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_10_Immutable.StringPoolDemos.*" />
+          <option name="PATTERN" value="_11_ConcurrentContainer._01_Intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPoolDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_10_Immutable.StringPoolDemos.StringPoolDemo3" />
+    <configuration name="SynMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_11_ConcurrentContainer._01_Intro.SynMapDemo" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_10_Immutable.StringPoolDemos.*" />
+          <option name="PATTERN" value="_11_ConcurrentContainer._01_Intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPoolDemo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_10_Immutable.StringPoolDemos.StringPoolDemo7" />
+    <configuration name="VectorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_11_ConcurrentContainer._01_Intro.VectorDemo" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_10_Immutable.StringPoolDemos.*" />
+          <option name="PATTERN" value="_11_ConcurrentContainer._01_Intro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FinalStringDemo1" />
-        <item itemvalue="Application.FinalStringDemo2" />
-        <item itemvalue="Application.StringPoolDemo7" />
-        <item itemvalue="Application.StringPoolDemo3" />
-        <item itemvalue="Application.StringPoolDemo2_2" />
+        <item itemvalue="Application.MapDemo" />
+        <item itemvalue="Application.SynListDemo" />
+        <item itemvalue="Application.SynMapDemo" />
+        <item itemvalue="Application.HashtableDemo" />
+        <item itemvalue="Application.VectorDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -358,6 +364,7 @@
       <workItem from="1587270445629" duration="7019000" />
       <workItem from="1587289139958" duration="2417000" />
       <workItem from="1587291742272" duration="868000" />
+      <workItem from="1587303306141" duration="7105000" />
     </task>
     <servers />
   </component>
@@ -376,22 +383,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586430964576" />
-    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1587292610154">
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom" timestamp="1587310419658">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587292610154" />
-    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1587292610154">
+    <state width="1493" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587310419658" />
+    <state width="1493" height="220" key="GridCell.Tab.0.center" timestamp="1587310419658">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587292610154" />
-    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1587292610154">
+    <state width="1493" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587310419658" />
+    <state width="1493" height="220" key="GridCell.Tab.0.left" timestamp="1587310419657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587292610154" />
-    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1587292610154">
+    <state width="1493" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587310419657" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right" timestamp="1587310419658">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587292610154" />
+    <state width="1493" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587310419658" />
     <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1587225165838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
