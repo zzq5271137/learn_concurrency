@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_01_MapIntro/HashMapEndlessLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/ConcurrentHashMapStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_01_MapIntro/MapIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_01_MapIntro/MapIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/ConcurrentHashMapStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/ConcurrentHashMapStructure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -361,7 +359,10 @@
       <workItem from="1587291742272" duration="868000" />
       <workItem from="1587303306141" duration="7105000" />
       <workItem from="1587354572707" duration="7418000" />
-      <workItem from="1587377430424" duration="1255000" />
+      <workItem from="1587377430424" duration="1935000" />
+      <workItem from="1587439174635" duration="1911000" />
+      <workItem from="1587460661799" duration="5061000" />
+      <workItem from="1587469951338" duration="3041000" />
     </task>
     <servers />
   </component>
