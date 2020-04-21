@@ -22,7 +22,7 @@ package _11_ConcurrentContainer._02_ConcurrentHashMap._02_ConcurrentHashMapStruc
  *    首先第一个设计上的区别就是它不再采用Segment的方式, 而是采用Node; 另外它保证线程安全的方式是利用CAS和synchronized;
  *    具体来说, ConcurrentHashMap在Java8中的结构和Java8中的HashMap类似, 即数组+链表+红黑树;
  *    在ConcurrentHashMap中通过一个Node<K,V>[]数组来保存添加到map中的键值对, 而在同一个数组位置,
- *    是通过链表和红黑树的形式来保存的; 然后再利用CAS和synchronized去保证并发安全;
+ *    是通过链表和红黑树的形式来保存的; 然后再利用CAS和synchronized来保证并发安全;
  *
  * 详见: https://www.bilibili.com/video/BV16J411L7uE?from=search&seid=9801827668276256293
  *      https://www.bilibili.com/video/bv1x741117jq/
