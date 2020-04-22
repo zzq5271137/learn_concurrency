@@ -49,9 +49,9 @@ public class NodePractise {
     /**
      * 扩容Node数组
      *
-     * @see #reviseNodeArr(Node[]) 将新生成的Node数组中的每个链表进行倒序, 以保证新数组中链表元素的顺序不变
+     * @see #reverseNodeArr(Node[]) 将新生成的Node数组中的每个链表进行倒序, 以保证新数组中链表元素的顺序不变
      */
-    public static Node[] resizeNodeArr(Node[] oldNodes, int factor) {
+    public static Node[] resize(Node[] oldNodes, int factor) {
         Node[] newNodes = new Node[oldNodes.length * factor];
         for (int i = 0; i < oldNodes.length; i++) {
             Node node = oldNodes[i];
@@ -70,25 +70,25 @@ public class NodePractise {
                 times++;
             }
         }
-        reviseNodeArr(newNodes);
+        reverseNodeArr(newNodes);
         return newNodes;
     }
 
     /**
      * 将Node数组中的每个链表进行倒序
      *
-     * @see #reviseNodeLink(Node) 将单个链表进行倒序操作
+     * @see #reverseNodeLink(Node) 将单个链表进行倒序操作
      */
-    public static void reviseNodeArr(Node[] nodes) {
+    public static void reverseNodeArr(Node[] nodes) {
         for (int i = 0; i < nodes.length; i++) {
-            nodes[i] = reviseNodeLink(nodes[i]);
+            nodes[i] = reverseNodeLink(nodes[i]);
         }
     }
 
     /**
      * 将单个链表进行倒序操作
      */
-    public static Node reviseNodeLink(Node node) {
+    public static Node reverseNodeLink(Node node) {
         Node temp = null;
         while (node != null) {
             Node next = node.next;
@@ -102,7 +102,7 @@ public class NodePractise {
     /**
      * 打印整个Node数组
      */
-    public static void printNodes(Node[] nodes) {
+    public static void printNodeArr(Node[] nodes) {
         for (Node node : nodes) {
             while (null != node) {
                 System.out.print(node.value + " ");
@@ -115,9 +115,9 @@ public class NodePractise {
     public static void main(String[] args) {
         System.out.println("Original nodes array:");
         Node[] nodes = initNodeArr();
-        printNodes(nodes);
+        printNodeArr(nodes);
         System.out.println("After resize:");
-        nodes = resizeNodeArr(nodes, 2);
-        printNodes(nodes);
+        nodes = resize(nodes, 2);
+        printNodeArr(nodes);
     }
 }
