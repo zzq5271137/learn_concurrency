@@ -58,15 +58,14 @@ public class NodePractise {
             int times = 0;
             while (null != node) {
                 Node next = node.next;
+                int index;
                 if (times > 2) {
-                    int index = 2 * i + 1;
-                    node.next = newNodes[index];
-                    newNodes[index] = node;
+                    index = 2 * i + 1;
                 } else {
-                    int index = 2 * i;
-                    node.next = newNodes[index];
-                    newNodes[index] = node;
+                    index = 2 * i;
                 }
+                node.next = newNodes[index];
+                newNodes[index] = node;
                 node = next;
                 times++;
             }
