@@ -12,11 +12,15 @@ package _11_ConcurrentContainer._02_ConcurrentHashMap._02_ConcurrentHashMapStruc
  *    总结ConcurrentHashMap在Java1.7中的结构:
  *    a). 最外层是多个Segment, 即一个Segment的数组(默认大小是16), 每个Segment的底层数据结构与HashMap类似,
  *        仍然是数组和链表组成的拉链法, 即每个Segment里有一个HashEntry<K,V>数组, HashEntry有一个属性是next,
- *        它可以指向另一个HashEntry, 所以, hash值相同的HashEntry就会一个一个的链起来;
- *    b). 每个Segment使用各自独立的ReentrantLock锁(Segment内部类本身就是继承自ReentrantLock),
+ *        它可以指向另一个HashEntry, 所以, hash值相同或者通过hash值算出的数组下标值相同的HashEntry就会一个一个的链起来;
+ *    b). 通过UNSAFE的CAS操作加while循环(自旋)去创建Segment数组中的每个Segment, 保证了多线程情况下的线程安全;
+ *    c). 每个Segment使用各自独立的ReentrantLock锁(Segment内部类本身就是继承自ReentrantLock),
  *        每个Segment之间互不影响, 所以提高了并发效率;
- *    c). ConcurrentHashMap默认是有16个Segment, 所以可以支持最多16个线程的并发写(因为操作分别分布在不同的Segment上),
+ *    d). ConcurrentHashMap默认是有16个Segment, 所以可以支持最多16个线程的并发写(因为操作分别分布在不同的Segment上),
  *        这个默认值可以在初始化的时候设置为其他值, 但是一旦初始化完成之后, Segment是不能扩容的;
+ *        但是每个Segment内部的HashEntry数组的大小, 随着插入的值越来越多, 会根据当前HashEntry数组的阈值(threshold),
+ *        进行扩容(扩容成现在数组长度的2倍, 因为HashEntry数组的长度, 包括外层的Segment数组的长度, 都要求是2的幂次方数,
+ *        这是为了将值更好地散列而设计的, 详见源码);
  * 2. 在Java8中:
  *    在Java8中, ConcurrentHashMap几乎被完全重写了, 代码量从1.7的1000多行变为了6000多行;
  *    首先第一个设计上的区别就是它不再采用Segment的方式, 而是采用Node; 另外它保证线程安全的方式是利用CAS和synchronized;
