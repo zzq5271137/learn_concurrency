@@ -24,8 +24,7 @@ package _11_ConcurrentContainer._02_ConcurrentHashMap._02_ConcurrentHashMapStruc
  *    在ConcurrentHashMap中通过一个Node<K,V>[]数组来保存添加到map中的键值对, 而在同一个数组位置,
  *    是通过链表和红黑树的形式来保存的; 然后再利用CAS和synchronized来保证并发安全;
  *
- * 详见: https://www.bilibili.com/video/BV16J411L7uE?from=search&seid=9801827668276256293
- *      https://www.bilibili.com/video/bv1x741117jq/
+ * 详见: https://www.bilibili.com/video/bv1x741117jq/
  */
 
 import java.util.concurrent.ConcurrentHashMap;
