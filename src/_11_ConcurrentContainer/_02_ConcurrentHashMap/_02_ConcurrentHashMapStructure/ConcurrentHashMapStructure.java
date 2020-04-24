@@ -27,12 +27,17 @@ package _11_ConcurrentContainer._02_ConcurrentHashMap._02_ConcurrentHashMapStruc
  * 详见: https://www.bilibili.com/video/bv1x741117jq/
  */
 
+import java.util.HashMap;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class ConcurrentHashMapStructure {
     public static void main(String[] args) {
-        ConcurrentHashMap<String, String> map = new ConcurrentHashMap<>();
-        map.put("k1", "v1");
-        System.out.println(map.get("k1"));
+        HashMap<String, String> hashMap = new HashMap<>();
+        hashMap.put("k1", "v1");
+        System.out.println(hashMap.get("k1"));
+
+        ConcurrentHashMap<String, String> concurrentHashMap = new ConcurrentHashMap<>();
+        concurrentHashMap.put("k1", "v1");
+        System.out.println(concurrentHashMap.get("k1"));
     }
 }
