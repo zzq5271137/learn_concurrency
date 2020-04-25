@@ -17,6 +17,8 @@ public class BinarySearchTreeTest {
         bst.noneRecursiveInOrder();
         System.out.println("\n后序遍历(递归):");
         bst.afterOrder();
+        System.out.println("\n层序遍历:");
+        bst.levelOrder();
         System.out.println();
         // System.out.println(bst);
     }

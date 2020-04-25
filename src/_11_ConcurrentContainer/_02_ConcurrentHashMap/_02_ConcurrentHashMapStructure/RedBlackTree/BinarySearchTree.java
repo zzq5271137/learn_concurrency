@@ -1,5 +1,7 @@
 package _11_ConcurrentContainer._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.RedBlackTree;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class BinarySearchTree<E extends Comparable<E>> {
@@ -76,7 +78,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
     }
 
     /**
-     * 二分搜索树的前序遍历
+     * 二分搜索树的前序遍历, 深度优先
      */
     public void preOrder() {
         preOrder(root);
@@ -113,7 +115,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
     }
 
     /**
-     * 二分搜索树的中序遍历, 中序遍历的结果正是二分搜索树中元素正序排序后的结果
+     * 二分搜索树的中序遍历, 深度优先, 中序遍历的结果正是二分搜索树中元素正序排序后的结果
      */
     public void inOrder() {
         inOrder(root);
@@ -152,7 +154,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
     }
 
     /**
-     * 二分搜索树的后序遍历
+     * 二分搜索树的后序遍历, 深度优先
      */
     public void afterOrder() {
         afterOrder(root);
@@ -168,6 +170,24 @@ public class BinarySearchTree<E extends Comparable<E>> {
         afterOrder(node.left);
         afterOrder(node.right);
         System.out.print(node.e + " ");
+    }
+
+    /**
+     * 二分搜索树的层序遍历, 非递归算法, 借助队列, 广度优先
+     */
+    public void levelOrder() {
+        if (root == null)
+            return;
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            Node current = queue.remove();
+            System.out.print(current.e + " ");
+            if (current.left != null)
+                queue.add(current.left);
+            if (current.right != null)
+                queue.add(current.right);
+        }
     }
 
     @Override
