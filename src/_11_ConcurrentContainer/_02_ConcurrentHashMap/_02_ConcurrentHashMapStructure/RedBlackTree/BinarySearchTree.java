@@ -39,7 +39,7 @@ public class BinarySearchTree<E extends Comparable<E>> {
     }
 
     /**
-     * 递归算法, 向以node为根的二分搜索树中添加新的元素e, 返回插入新节点后二分搜索树的根
+     * 递归算法, 向以node为根的二分搜索树中添加新的元素e, 返回插入新节点后新的二分搜索树的根
      */
     private Node add(Node node, E e) {
         if (node == null) {
@@ -187,6 +187,131 @@ public class BinarySearchTree<E extends Comparable<E>> {
                 queue.add(current.left);
             if (current.right != null)
                 queue.add(current.right);
+        }
+    }
+
+    /**
+     * 寻找二分搜索树中的最小元素
+     */
+    public E minimum() {
+        if (size == 0)
+            throw new IllegalArgumentException("BST is empty.");
+        return minimum(root).e;
+    }
+
+    /**
+     * 递归算法, 寻找以node为根的二分搜索树中的最小元素
+     */
+    private Node minimum(Node node) {
+        if (node.left == null)
+            return node;
+        return minimum(node.left);
+    }
+
+    /**
+     * 寻找二分搜索树中的最大元素
+     */
+    public E maximum() {
+        if (size == 0)
+            throw new IllegalArgumentException("BST is empty.");
+        return maximum(root).e;
+    }
+
+    /**
+     * 递归算法, 寻找以node为根的二分搜索树中的最大元素
+     */
+    private Node maximum(Node node) {
+        if (node.right == null)
+            return node;
+        return maximum(node.right);
+    }
+
+    /**
+     * 从二分搜索树中删除最小值所在的节点, 并返回最小值
+     */
+    public E removeMin() {
+        E ret = minimum();
+        root = removeMin(root);
+        return ret;
+    }
+
+    /**
+     * 递归算法, 删除掉以node为根的二分搜索树中的最小节点, 返回删除节点后新的二分搜索树的根
+     */
+    private Node removeMin(Node node) {
+        if (node.left == null) {
+            size--;
+            return node.right;
+        }
+
+        node.left = removeMin(node.left);
+        return node;
+    }
+
+    /**
+     * 从二分搜索树中删除最大值所在的节点, 并返回最大值
+     */
+    public E removeMax() {
+        E ret = maximum();
+        root = removeMax(root);
+        return ret;
+    }
+
+    /**
+     * 递归算法, 删除掉以node为根的二分搜索树中的最大节点, 返回删除节点后新的二分搜索树的根
+     */
+    private Node removeMax(Node node) {
+        if (node.right == null) {
+            size--;
+            return node.left;
+        }
+
+        node.right = removeMax(node.right);
+        return node;
+    }
+
+    /**
+     * 从二分搜索树中删除值为e的节点
+     */
+    public void remove(E e) {
+        root = remove(root, e);
+    }
+
+    /**
+     * 递归算法, 删除掉以node为根的二分搜索树中值为e的节点, 返回删除节点后新的二分搜索树的根
+     */
+    private Node remove(Node node, E e) {
+        if (node == null)
+            return null;
+
+        if (e.compareTo(node.e) < 0) {
+            node.left = remove(node.left, e);
+            return node;
+        } else if (e.compareTo(node.e) > 0) {
+            node.right = remove(node.right, e);
+            return node;
+        } else {  // e.compareTo(node.e) == 0
+            // 待删除的节点的左子树为空的情况
+            if (node.left == null) {
+                size--;
+                return node.right;
+            }
+
+            // 待删除的节点的右子树为空的情况
+            if (node.right == null) {
+                size--;
+                return node.left;
+            }
+
+            /*
+             * 待删除的节点的左右子树都不为空的情况;
+             * 找到比待删除的节点大的最小节点, 即待删除的节点的右子树的最小节点,
+             * 用这个节点顶替待删除节点的位置;
+             */
+            Node successor = minimum(node.right);
+            successor.right = removeMin(node.right);
+            successor.left = node.left;
+            return successor;
         }
     }
 
