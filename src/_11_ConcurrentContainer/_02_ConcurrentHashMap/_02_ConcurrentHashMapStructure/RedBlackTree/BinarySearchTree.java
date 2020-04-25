@@ -98,15 +98,17 @@ public class BinarySearchTree<E extends Comparable<E>> {
      * 前序遍历的非递归写法(借助栈)
      */
     public void noneRecursivePreOrder() {
+        if (root == null)
+            return;
         Stack<Node> stack = new Stack<>();
         stack.push(root);
         while (!stack.isEmpty()) {
             Node current = stack.pop();
-            if (current != null) {
-                System.out.print(current.e + " ");
+            System.out.print(current.e + " ");
+            if (current.right != null)
                 stack.push(current.right);
+            if (current.left != null)
                 stack.push(current.left);
-            }
         }
     }
 
@@ -127,6 +129,26 @@ public class BinarySearchTree<E extends Comparable<E>> {
         inOrder(node.left);
         System.out.print(node.e + " ");
         inOrder(node.right);
+    }
+
+    /**
+     * 中序遍历的非递归写法(借助栈)
+     */
+    public void noneRecursiveInOrder() {
+        if (root == null)
+            return;
+        Stack<Node> stack = new Stack<>();
+        Node current = root;
+        while (!stack.isEmpty() || current != null) {
+            while (current != null) {
+                stack.push(current);
+                current = current.left;
+            }
+            Node pick = stack.pop();
+            System.out.print(pick.e + " ");
+            if (pick.right != null)
+                current = pick.right;
+        }
     }
 
     /**
