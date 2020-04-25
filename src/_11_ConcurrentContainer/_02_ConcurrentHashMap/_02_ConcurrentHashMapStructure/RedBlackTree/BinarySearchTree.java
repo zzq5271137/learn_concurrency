@@ -102,11 +102,11 @@ public class BinarySearchTree<E extends Comparable<E>> {
         stack.push(root);
         while (!stack.isEmpty()) {
             Node current = stack.pop();
-            System.out.print(current.e + " ");
-            if (current.right != null)
+            if (current != null) {
+                System.out.print(current.e + " ");
                 stack.push(current.right);
-            if (current.left != null)
                 stack.push(current.left);
+            }
         }
     }
 
