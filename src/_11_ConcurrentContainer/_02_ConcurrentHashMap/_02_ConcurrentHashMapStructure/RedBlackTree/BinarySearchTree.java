@@ -287,32 +287,36 @@ public class BinarySearchTree<E extends Comparable<E>> {
         if (e.compareTo(node.e) < 0) {
             node.left = remove(node.left, e);
             return node;
-        } else if (e.compareTo(node.e) > 0) {
+        }
+        if (e.compareTo(node.e) > 0) {
             node.right = remove(node.right, e);
             return node;
-        } else {  // e.compareTo(node.e) == 0
-            // 待删除的节点的左子树为空的情况
-            if (node.left == null) {
-                size--;
-                return node.right;
-            }
-
-            // 待删除的节点的右子树为空的情况
-            if (node.right == null) {
-                size--;
-                return node.left;
-            }
-
-            /*
-             * 待删除的节点的左右子树都不为空的情况;
-             * 找到比待删除的节点大的最小节点, 即待删除的节点的右子树的最小节点,
-             * 用这个节点顶替待删除节点的位置;
-             */
-            Node successor = minimum(node.right);
-            successor.right = removeMin(node.right);
-            successor.left = node.left;
-            return successor;
         }
+
+        /*
+         * 当前节点即为待删除的节点的情况, 即e.compareTo(node.e) == 0
+         */
+        // 待删除的节点的左子树为空的情况
+        if (node.left == null) {
+            size--;
+            return node.right;
+        }
+
+        // 待删除的节点的右子树为空的情况
+        if (node.right == null) {
+            size--;
+            return node.left;
+        }
+
+        /*
+         * 待删除的节点的左右子树都不为空的情况;
+         * 找到比待删除的节点大的最小节点, 即待删除的节点的右子树的最小节点,
+         * 用这个节点顶替待删除节点的位置;
+         */
+        Node successor = minimum(node.right);
+        successor.right = removeMin(node.right);
+        successor.left = node.left;
+        return successor;
     }
 
     @Override
