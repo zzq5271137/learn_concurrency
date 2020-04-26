@@ -1,5 +1,9 @@
 package _11_ConcurrentContainer._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._01_BinarySearchTree;
 
+/*
+ * 二分搜索树的实现
+ */
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -47,11 +51,10 @@ public class BinarySearchTree<E extends Comparable<E>> {
             return new Node(e);
         }
 
-        if (e.compareTo(node.e) < 0) {
+        if (e.compareTo(node.e) < 0)
             node.left = add(node.left, e);
-        } else if (e.compareTo(node.e) > 0) {
+        else if (e.compareTo(node.e) > 0)
             node.right = add(node.right, e);
-        }
         return node;
     }
 

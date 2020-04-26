@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_03_AVLTree/AVLTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/RedBlackTree/BinarySearchTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/RedBlackTree/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/RedBlackTree/BinarySearchTreeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/RedBlackTree/Chapter-06-watermarked.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/RedBlackTree/Chapter-13.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/RedBlackTree/RedBlackTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/RedBlackTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_01_BinarySearchTree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/RedBlackTree/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_01_BinarySearchTree/BinarySearchTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/RedBlackTree/Chapter-06-watermarked.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/Chapter-06-watermarked.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/RedBlackTree/Chapter-13.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/Chapter-13.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/RedBlackTree/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_04_RedBlackTree/RedBlackTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_02_SetAndMapUsingBST/BSTMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_02_SetAndMapUsingBST/BSTSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_02_SetAndMapUsingBST/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_02_SetAndMapUsingBST/Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/AVLTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/Chapter-06-watermarked.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/Chapter-13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/RedBlackTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_01_BinarySearchTree/BinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_01_BinarySearchTree/BinarySearchTree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_01_BinarySearchTree/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_01_BinarySearchTree/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_01_BinarySearchTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_01_BinarySearchTree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_03_AVLTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_03_AVLTree/AVLTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -81,11 +82,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_11_ConcurrentContainer._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._02_SetAndMap" />
       <recent name="_11_ConcurrentContainer._01_Intro" />
       <recent name="_10_Immutable.StringPoolDemos" />
       <recent name="_10_Immutable" />
       <recent name="_09_CAS" />
-      <recent name="_08_Atomic._06_AdderAndAccumulator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_07_Lock\_04_TypesOfLock\ReentrantLock" />
@@ -402,7 +403,7 @@
       <workItem from="1587826766587" duration="102000" />
       <workItem from="1587827256448" duration="25000" />
       <workItem from="1587827341907" duration="611000" />
-      <workItem from="1587872533300" duration="1804000" />
+      <workItem from="1587872533300" duration="18538000" />
     </task>
     <servers />
   </component>
@@ -413,30 +414,30 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1587805402969">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1587878402098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587805402969" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587878402098" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586430964576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586430964576" />
-    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1587874576576">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1587880294330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587874576576" />
-    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1587874576576">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587880294330" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1587880294330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587874576576" />
-    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1587874576576">
+    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587880294330" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1587880294330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587874576576" />
-    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1587874576576">
+    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587880294330" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1587880294330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587874576576" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587880294330" />
     <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1587225165838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
