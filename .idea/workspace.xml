@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_03_AVLTree/AVLTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_02_SetAndMap/BSTMap$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_02_SetAndMap/BSTMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_02_SetAndMap/BSTSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_02_SetAndMap/Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_02_SetAndMap/Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_03_AVLTree/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_03_AVLTree/AVLTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_01_BinarySearchTree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_01_BinarySearchTree/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_03_AVLTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_03_AVLTree/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_04_RedBlackTree/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/Tree/_04_RedBlackTree/RedBlackTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +394,7 @@
       <workItem from="1587826766587" duration="102000" />
       <workItem from="1587827256448" duration="25000" />
       <workItem from="1587827341907" duration="611000" />
-      <workItem from="1587872533300" duration="22265000" />
+      <workItem from="1587872533300" duration="22582000" />
     </task>
     <servers />
   </component>

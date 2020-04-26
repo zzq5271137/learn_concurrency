@@ -9,6 +9,7 @@ import java.util.Queue;
 import java.util.Stack;
 
 public class BinarySearchTree<E extends Comparable<E>> {
+
     private class Node {
         public E e;
         public Node left, right;
