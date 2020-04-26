@@ -126,6 +126,47 @@ public class AVLTree<K extends Comparable<K>, V> {
         return x;
     }
 
+    /**
+     * 使用四种旋转操作, 重新使以node为根的树平衡
+     */
+    private Node reBalance(Node node) {
+        // 计算平衡因子, 如果平衡因子绝对值大于1, 则当前的树不再满足平衡二叉树的条件, 需要做自平衡操作(旋转)
+        int nodeBalanceFactor = getBalanceFactor(node);
+        int leftBalanceFactor = getBalanceFactor(node.left);
+        int rightBalanceFactor = getBalanceFactor(node.right);
+
+        /*
+         * 旋转的四种情况:
+         * 1. LL(右旋转)
+         *    在node的左子树的左子树上插入节点而破坏平衡
+         * 2. RR(左旋转)
+         *    在node的右子树的右子树上插入节点而破坏平衡
+         * 3. LR(先左旋后右旋)
+         *    在node的左子树的右子树上插入节点而破坏平衡
+         * 4. RL(先右旋后左旋)
+         *    在node的右子树的左子树上插入节点而破坏平衡
+         */
+        if (nodeBalanceFactor > 1 && leftBalanceFactor >= 0) {           // LL
+            node = rightRotate(node);
+        } else if (nodeBalanceFactor < -1 && rightBalanceFactor <= 0) {  // RR
+            node = leftRotate(node);
+        } else if (nodeBalanceFactor > 1 && leftBalanceFactor < 0) {     // LR
+            node.left = leftRotate(node.left);
+            node = rightRotate(node);
+        } else if (nodeBalanceFactor < -1 && rightBalanceFactor > 0) {   // RL
+            node.right = rightRotate(node.right);
+            node = leftRotate(node);
+        }
+
+        return node;
+    }
+
+    public ArrayList<K> inOrder() {
+        ArrayList<K> keys = new ArrayList<>();
+        inOrder(root, keys);
+        return keys;
+    }
+
     private void inOrder(Node node, ArrayList<K> keys) {
         if (node == null)
             return;
@@ -154,36 +195,7 @@ public class AVLTree<K extends Comparable<K>, V> {
         // 更新height
         node.height = 1 + Math.max(getHeight(node.left), getHeight(node.right));
 
-        // 计算平衡因子, 如果平衡因子绝对值大于1, 则当前的树不再满足平衡二叉树的条件, 需要做自平衡操作(旋转)
-        int nodeBalanceFactor = getBalanceFactor(node);
-        int leftBalanceFactor = getBalanceFactor(node.left);
-        int rightBalanceFactor = getBalanceFactor(node.right);
-
-        /*
-         * 旋转的四种情况:
-         * 1. LL(右旋转)
-         *    在node的左子树的左子树上插入节点而破坏平衡
-         * 2. RR(左旋转)
-         *    在node的右子树的右子树上插入节点而破坏平衡
-         * 3. LR(先左旋后右旋)
-         *    在node的左子树的右子树上插入节点而破坏平衡
-         * 4. RL(先右旋后左旋)
-         *    在node的右子树的左子树上插入节点而破坏平衡
-         */
-        if (nodeBalanceFactor > 1 && leftBalanceFactor >= 0)   // LL
-            return rightRotate(node);
-        if (nodeBalanceFactor < -1 && rightBalanceFactor <= 0) // RR
-            return leftRotate(node);
-        if (nodeBalanceFactor > 1 && leftBalanceFactor < 0) {    // LR
-            node.left = leftRotate(node.left);
-            return rightRotate(node);
-        }
-        if (nodeBalanceFactor < -1 && rightBalanceFactor > 0) {  // RL
-            node.right = rightRotate(node.right);
-            return leftRotate(node);
-        }
-
-        return node;
+        return reBalance(node);
     }
 
     private Node getNode(Node node, K key) {
@@ -227,42 +239,40 @@ public class AVLTree<K extends Comparable<K>, V> {
         if (node == null)
             return null;
 
+        Node retNode;
         if (key.compareTo(node.key) < 0) {
             node.left = remove(node.left, key);
-            return node;
-        }
-        if (key.compareTo(node.key) > 0) {
+            retNode = node;
+        } else if (key.compareTo(node.key) > 0) {
             node.right = remove(node.right, key);
-            return node;
+            retNode = node;
+        } else {
+            if (node.left == null) {
+                size--;
+                retNode = node.right;
+            } else if (node.right == null) {
+                size--;
+                retNode = node.left;
+            } else {
+                Node successor = minimum(node.right);
+                successor.right = remove(node.right, successor.key);
+                successor.left = node.left;
+                retNode = successor;
+            }
         }
 
-        if (node.left == null) {
-            size--;
-            return node.right;
-        }
-        if (node.right == null) {
-            size--;
-            return node.left;
-        }
+        if (retNode == null)
+            return null;
 
-        Node successor = minimum(node.right);
-        successor.right = removeMin(node.right);
-        successor.left = node.left;
-        return successor;
+        // 更新height
+        retNode.height = 1 + Math.max(getHeight(retNode.left), getHeight(retNode.right));
+
+        return reBalance(retNode);
     }
 
     private Node minimum(Node node) {
         if (node.left == null)
             return node;
         return minimum(node.left);
-    }
-
-    private Node removeMin(Node node) {
-        if (node.left == null) {
-            size--;
-            return node.right;
-        }
-        node.left = removeMin(node.left);
-        return node;
     }
 }
