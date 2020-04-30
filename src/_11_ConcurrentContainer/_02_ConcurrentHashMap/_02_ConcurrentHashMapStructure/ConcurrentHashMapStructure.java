@@ -39,9 +39,11 @@ public class ConcurrentHashMapStructure {
         HashMap<String, String> hashMap = new HashMap<>();
         hashMap.put("k1", "v1");
         System.out.println(hashMap.get("k1"));
+        hashMap.remove("k1", "v1");
 
         ConcurrentHashMap<String, String> concurrentHashMap = new ConcurrentHashMap<>();
         concurrentHashMap.put("k1", "v1");
         System.out.println(concurrentHashMap.get("k1"));
+        concurrentHashMap.remove("k1", "v1");
     }
 }
