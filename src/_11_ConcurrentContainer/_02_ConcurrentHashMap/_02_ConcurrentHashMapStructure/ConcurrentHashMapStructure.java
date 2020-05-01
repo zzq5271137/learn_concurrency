@@ -44,6 +44,7 @@ public class ConcurrentHashMapStructure {
         ConcurrentHashMap<String, String> concurrentHashMap = new ConcurrentHashMap<>();
         concurrentHashMap.put("k1", "v1");
         System.out.println(concurrentHashMap.get("k1"));
+        System.out.println(concurrentHashMap.size());
         concurrentHashMap.remove("k1", "v1");
     }
 }
