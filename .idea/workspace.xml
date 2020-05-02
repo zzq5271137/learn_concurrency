@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="" />
+    <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/ConcurrentHashMapStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_ConcurrentContainer/_02_ConcurrentHashMap/_02_ConcurrentHashMapStructure/ConcurrentHashMapStructure.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -399,7 +401,8 @@
       <workItem from="1588213992327" duration="48000" />
       <workItem from="1588215859390" duration="18665000" />
       <workItem from="1588300499924" duration="2902000" />
-      <workItem from="1588318255130" duration="3747000" />
+      <workItem from="1588318255130" duration="19630000" />
+      <workItem from="1588391630709" duration="18566000" />
     </task>
     <servers />
   </component>
@@ -418,22 +421,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586430964576" />
-    <state width="1493" height="196" key="GridCell.Tab.0.bottom" timestamp="1588326085788">
+    <state width="1493" height="196" key="GridCell.Tab.0.bottom" timestamp="1588351292273">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588326085788" />
-    <state width="1493" height="196" key="GridCell.Tab.0.center" timestamp="1588326085787">
+    <state width="1493" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588351292273" />
+    <state width="1493" height="196" key="GridCell.Tab.0.center" timestamp="1588351292273">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588326085787" />
-    <state width="1493" height="196" key="GridCell.Tab.0.left" timestamp="1588326085787">
+    <state width="1493" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588351292273" />
+    <state width="1493" height="196" key="GridCell.Tab.0.left" timestamp="1588351292273">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588326085787" />
-    <state width="1493" height="196" key="GridCell.Tab.0.right" timestamp="1588326085788">
+    <state width="1493" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588351292273" />
+    <state width="1493" height="196" key="GridCell.Tab.0.right" timestamp="1588351292273">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588326085788" />
+    <state width="1493" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588351292273" />
     <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1587225165838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -454,10 +457,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587138832413" />
-    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1588219537495">
+    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1588333754286">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1588219537495" />
+    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1588333754286" />
     <state x="174" y="36" key="new project wizard" timestamp="1587354816915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
