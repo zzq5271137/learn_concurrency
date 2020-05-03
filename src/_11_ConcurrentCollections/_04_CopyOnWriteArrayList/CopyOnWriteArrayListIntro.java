@@ -5,7 +5,7 @@ package _11_ConcurrentCollections._04_CopyOnWriteArrayList;
  * 1. CopyOnWriteArrayList是用来代替Vector和Collections.synchronizedList的,
  *    原因就和ConcurrentHashMap代替Collections.synchronizedMap一样,
  *    因为Vector和Collections.synchronizedList的锁的粒度太大, 并发效率相比较低,
- *    并且迭代时无法编辑;
+ *    并且迭代时无法编辑(因为被锁住了);
  * 2. Copy-On-Write并发容器还包括CopyOnWriteArraySet, 用来代替同步Set;
  *
  * CopyOnWriteArrayList适用场景:

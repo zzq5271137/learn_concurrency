@@ -25,8 +25,25 @@ public class CopyOnWriteArrayListDemo1 {
         Iterator<String> iterator = list.iterator();
         while (iterator.hasNext()) {
             String content = iterator.next();
+            System.out.println("list: " + list + ", current: " + content);
+
+            /*
+             * 从运行结果我们可以看到, 我们在"2"时删除了"5", 又在"3"时添加了"3 found",
+             * 但是这个iterator迭代器依然遍历出了"5", 但是没有遍历出"3 found";
+             * 这其实就是CopyOnWriteArrayList的特性;
+             * "CopyOnWrite"的含义就是, 当进行写操作时, 不是直接操作原list, 而是复制一份出来,
+             * 对这个复制出来的list进行写操作, 然后在合适的时机将原list重新指向这个新的list;
+             * 即创建新副本, 读写分离; 这就是为什么CopyOnWriteArrayList支持读写不互斥的原理,
+             * 因为这里的写操作实际上是在一个新的地方进行写的, 并不影响原list的读;
+             * 所以, 这里的iterator迭代器依然遍历出了"5", 但是没有遍历出"3 found",
+             * 因为这里迭代器使用的依然是旧的list(这也意味着, 对于CopyOnWrite的容器来说,
+             * 迭代的时候的数据可能是过期的); 详见CopyOnWriteArrayListDemo2.java
+             */
             if (content.equals("2")) {
-                list.remove("2");
+                list.remove("5");
+            }
+            if (content.equals("3")) {
+                list.add("3 found");
             }
         }
         System.out.println("迭代后: " + list);
