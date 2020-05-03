@@ -1,4 +1,4 @@
-package _11_ConcurrentCollections._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.NodePractise;
+package _11_ConcurrentCollections._03_ConcurrentHashMap._02_ConcurrentHashMapStructure.NodePractise;
 
 /*
  * 链表练习:

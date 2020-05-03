@@ -1,4 +1,4 @@
-package _11_ConcurrentCollections._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._01_BinarySearchTree;
+package _11_ConcurrentCollections._03_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._01_BinarySearchTree;
 
 import java.util.ArrayList;
 import java.util.Random;

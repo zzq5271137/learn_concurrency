@@ -1,4 +1,4 @@
-package _11_ConcurrentCollections._02_ConcurrentHashMap._02_ConcurrentHashMapStructure;
+package _11_ConcurrentCollections._03_ConcurrentHashMap._02_ConcurrentHashMapStructure;
 
 /*
  * ConcurrentHashMap的结构:

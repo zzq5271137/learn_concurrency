@@ -1,4 +1,4 @@
-package _11_ConcurrentCollections._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._03_AVLTree;
+package _11_ConcurrentCollections._03_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._03_AVLTree;
 
 public class AVLTreeTest {
     private static void testAdd() {

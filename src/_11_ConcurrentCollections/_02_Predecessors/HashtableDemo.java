@@ -1,4 +1,4 @@
-package _11_ConcurrentCollections._01_Intro;
+package _11_ConcurrentCollections._02_Predecessors;
 
 /*
  * 演示Hashtable(可以把它理解为线程安全的HashMap), 主要看Hashtable的源码;

@@ -1,4 +1,4 @@
-package _11_ConcurrentCollections._01_Intro;
+package _11_ConcurrentCollections._02_Predecessors;
 
 /*
  * 演示Vector(可以把它理解为线程安全的ArrayList, 可以当做ArrayList来使用), 主要看Vector的源码;

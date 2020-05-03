@@ -1,10 +1,10 @@
-package _11_ConcurrentCollections._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._02_SetAndMapUsingBST;
+package _11_ConcurrentCollections._03_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._02_SetAndMapUsingBST;
 
 /*
  * 使用二分搜索树实现集合
  */
 
-import _11_ConcurrentCollections._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._01_BinarySearchTree.BinarySearchTree;
+import _11_ConcurrentCollections._03_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._01_BinarySearchTree.BinarySearchTree;
 
 public class BSTSet<E extends Comparable<E>> implements Set<E> {
 
