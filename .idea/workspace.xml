@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/_11_ConcurrentCollections/_01_Intro/Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_ConcurrentCollections/_01_Intro/Intro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_11_ConcurrentCollections/_03_ConcurrentHashMap/_01_MapIntro/MapIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11_ConcurrentCollections/_03_ConcurrentHashMap/_01_MapIntro/MapIntro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +404,7 @@
       <workItem from="1588318255130" duration="19630000" />
       <workItem from="1588391630709" duration="18566000" />
       <workItem from="1588435611285" duration="188000" />
-      <workItem from="1588468850644" duration="1951000" />
+      <workItem from="1588468850644" duration="2385000" />
     </task>
     <servers />
   </component>

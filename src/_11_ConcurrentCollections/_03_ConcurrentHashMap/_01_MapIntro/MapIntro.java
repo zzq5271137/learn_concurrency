@@ -5,8 +5,9 @@ package _11_ConcurrentCollections._03_ConcurrentHashMap._01_MapIntro;
  * Map是一个顶层接口, 它有很多实现类:
  * 1. HashMap
  *    HashMap是直接对Map接口的实现; HashMap会根据键的hashcode进行存储, 由于可以直接算出hashcode的值,
- *    可以直接定位到所需要找的位置, 所以HashMap的访问速度是非常快的; HashMap是线程不安全的,
- *    所以如果有多个线程同时对一个HashMap进行操作, 可能会导致数据不一致(线程安全问题);
+ *    可以直接定位到所需要找的位置(直接可以计算出数组下标: hashcode & table.length - 1),
+ *    所以HashMap的访问速度是非常快的; HashMap是线程不安全的, 所以如果有多个线程同时对一个HashMap进行操作,
+ *    可能会导致数据不一致(线程安全问题);
  * 2. Hashtable
  *    Hashtable也是直接对Map接口的实现; Hashtable是一个历史遗留类, 它的很多功能都和HashMap一样,
  *    但Hashtable是线程安全的, 任何一个时刻只能有一个线程对它进行操作(因为它的方法是直接使用synchronized修饰的),
