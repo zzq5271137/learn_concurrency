@@ -1,4 +1,4 @@
-package _11_ConcurrentContainer._01_Intro;
+package _11_ConcurrentCollections._01_Intro;
 
 /*
  * 线程安全的并发容器:

@@ -1,4 +1,4 @@
-package _11_ConcurrentContainer._01_Intro;
+package _11_ConcurrentCollections._01_Intro;
 
 /*
  * 演示Collections.synchronizedMap(new HashMap<K,V>()), 它是一个线程安全的HashMap;

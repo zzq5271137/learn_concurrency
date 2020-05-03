@@ -1,4 +1,4 @@
-package _11_ConcurrentContainer._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._03_AVLTree;
+package _11_ConcurrentCollections._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._03_AVLTree;
 
 /*
  * AVL树的实现, 平衡的定义为, 每一个节点左右子树的高度差不超过1;

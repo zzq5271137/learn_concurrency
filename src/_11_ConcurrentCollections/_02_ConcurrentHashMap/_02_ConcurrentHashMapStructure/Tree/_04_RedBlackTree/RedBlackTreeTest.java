@@ -1,7 +1,7 @@
-package _11_ConcurrentContainer._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._04_RedBlackTree;
+package _11_ConcurrentCollections._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._04_RedBlackTree;
 
-import _11_ConcurrentContainer._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._02_SetAndMapUsingBST.BSTMap;
-import _11_ConcurrentContainer._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._03_AVLTree.AVLTree;
+import _11_ConcurrentCollections._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._02_SetAndMapUsingBST.BSTMap;
+import _11_ConcurrentCollections._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._03_AVLTree.AVLTree;
 
 import java.util.ArrayList;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package _11_ConcurrentContainer._02_ConcurrentHashMap._01_MapIntro;
+package _11_ConcurrentCollections._02_ConcurrentHashMap._01_MapIntro;
 
 /*
  * 演示在Java1.7下, HashMap在多线程下造成死循环并导致CPU利用率100%的情况;

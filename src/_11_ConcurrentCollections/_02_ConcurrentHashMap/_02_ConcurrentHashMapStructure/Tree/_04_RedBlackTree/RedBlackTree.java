@@ -1,4 +1,4 @@
-package _11_ConcurrentContainer._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._04_RedBlackTree;
+package _11_ConcurrentCollections._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._04_RedBlackTree;
 
 /*
  * 红黑树的实现, 注意, 红黑树与2-3树是等价的;
