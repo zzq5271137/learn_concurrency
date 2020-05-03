@@ -32,7 +32,7 @@ public class CopyOnWriteArrayListDemo1 {
              * 但是这个iterator迭代器依然遍历出了"5", 但是没有遍历出"3 found";
              * 这其实就是CopyOnWriteArrayList的特性;
              * "CopyOnWrite"的含义就是, 当进行写操作时, 不是直接操作原list, 而是复制一份出来,
-             * 对这个复制出来的list进行写操作, 然后在合适的时机将原list重新指向这个新的list;
+             * 对这个复制出来的副本进行写操作, 写操作执行完了之后再将原list重新指向这个新的list;
              * 即创建新副本, 读写分离; 这就是为什么CopyOnWriteArrayList支持读写不互斥的原理,
              * 因为这里的写操作实际上是在一个新的地方进行写的, 并不影响原list的读;
              * 所以, 这里的iterator迭代器依然遍历出了"5", 但是没有遍历出"3 found",
