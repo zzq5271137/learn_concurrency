@@ -9,11 +9,25 @@ package _12_FlowControl._04_Condition;
  * 线程1的状态就会变成RUNNABLE状态, 继续执行; Condition实例是绑定在锁上面的;
  *
  * Condition的主要方法:
- * 1. await()
- *    等待条件的线程会调用此方法, 进入阻塞状态;
- * 2. signal()/signalAll()
+ * 1. lock.newCondition()
+ *    创建Condition实例的方法, 需要一个Lock锁的实例去调用, 创建后, 该Condition实例就绑定到了该Lock锁实例上,
+ *    当有线程调用await()方法时, 要求其必须先持有该Condition实例绑定的Lock锁, 调用后, 会释放Lock锁, 并进入阻塞状态;
+ *    当有线程调用signal()/signalAll()方法时, 也要求其必须先持有该Condition实例绑定的Lock锁;
+ * 2. await()
+ *    等待条件的线程会调用此方法, 释放Lock锁, 并进入阻塞状态;
+ * 3. signal()/signalAll()
  *    执行条件的线程在条件达成时会调用此方法, 唤醒等待该条件的线程;
  *    signal()是公平的, 它会唤醒等待时间最长的那个线程; signalAll()会唤醒所有线程;
+ *
+ * Condition的注意点:
+ * 1. 实际上, 如果说使用Lock来代替synchronized, 那么Condition就是用来代替相对应的object.wait()/notify()的,
+ *    所以在用法和性质上, 几乎都一样;
+ * 2. 类似于调用wait()方法会自动释放monitor锁, 调用await()方法会自动释放持有的Lock锁;
+ * 3. 类似于调用wait()方法时, 线程必须先持有相应的monitor锁, Condition是绑定在一个Lock锁上的,
+ *    调用await()方法时, 线程必须先持有相应的Lock锁, 否则会抛出异常;
+ *    signal()/signalAll()同理;
+ * 4. 相比于wait()/notify(), Condition的优势在于, 一个Lock锁可以有多个Condition(通过lock.newCondition()创建),
+ *    这样, 就可以更灵活地控制线程执行的流程;
  *
  * 实例详见ConditionDemo1.java和ConditionDemo2.java
  */
