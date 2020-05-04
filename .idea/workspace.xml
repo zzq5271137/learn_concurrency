@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/_12_FlowControl/_05_CyclicBarrier/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_12_FlowControl/_05_CyclicBarrier/CyclicBarrierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_13_AQS/_01_Intro/Intro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_12_FlowControl/_03_Semaphore/SemaphoreIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_12_FlowControl/_03_Semaphore/SemaphoreIntro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -406,7 +407,7 @@
       <workItem from="1588435611285" duration="188000" />
       <workItem from="1588468850644" duration="40992000" />
       <workItem from="1588564208550" duration="12191000" />
-      <workItem from="1588587298138" duration="9688000" />
+      <workItem from="1588587298138" duration="11673000" />
     </task>
     <servers />
   </component>

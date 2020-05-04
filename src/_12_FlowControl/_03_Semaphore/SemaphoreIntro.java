@@ -8,6 +8,7 @@ package _12_FlowControl._03_Semaphore;
  * 信号量维护的剩余"许可证"数量就减一; 线程也可以"归还"一个"许可证", 每当一个线程"归还"一张"许可证",
  * 信号量维护的剩余"许可证"数量就加一; 当信号量维护的"许可证"数量为0, 那么下一个想要获取"许可证"的线程就必须等待(阻塞),
  * 直到有另外的线程归还了"许可证";
+ * Semaphore和Lock(的实现类)很像, 区别在于, Lock一次只允许一个线程进入临界区, 而Semaphore一次允许多个线程进入临界区;
  *
  * Semaphore使用流程:
  * 1. 初始化Semaphore并指定许可证的数量;
@@ -20,12 +21,14 @@ package _12_FlowControl._03_Semaphore;
  *    许可证会发放给等待了最长时间的线程;
  * 2. acquire()和acquireUniterruptibly():
  *    获取许可证的方法; 区别在于, acquire()能够响应中断, 而acquireUniterruptibly()不能响应中断;
+ *    (acquire()方法类似于Lock中的lockInterruptibly()方法, acquireUniterruptibly()类似于Lock中的lock()方法)
  * 3. tryAcquire()/tryAcquire(int timeout):
  *    会返回一个boolean值, 尝试获得许可证, 如果获得失败, 就立即返回, 不会陷入阻塞;
  *    可以传入超时参数, 意为, 在"timeout"时间内不停地去尝试获得许可证, 获得了就返回, 超时了也返回;
  *    (类似于Lock的tryLock());
  * 4. release():
- *    归还许可证的方法; 必须手动调用此方法来归还许可证, 许可证不会自动归还(类似于Lock的unlock());
+ *    归还许可证的方法; 必须手动调用此方法来归还许可证, 许可证不会自动归还;
+ *    (类似于Lock的unlock())
  *
  * Semaphore的特殊用法:
  * 获取许可证的方法可以传入参数, permits, 意为一次获取多个许可证, 例如可以使用acquire(3), 一次获取3个许可证;
