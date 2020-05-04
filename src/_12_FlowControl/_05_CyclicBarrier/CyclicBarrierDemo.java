@@ -21,7 +21,7 @@ public class CyclicBarrierDemo {
         public void run() {
             try {
                 System.out.println("线程" + id + "开始执行任务...");
-                Thread.sleep((long) (Math.random() * 5000));
+                Thread.sleep((long) (Math.random() * 7000));
                 System.out.println("线程" + id + "执行完部分任务, 到达集合点, 开始等待其他线程到达");
                 cyclicBarrier.await();
                 System.out.println("线程" + id + "从集合点出发, 开始执行剩下的任务...");
@@ -36,19 +36,19 @@ public class CyclicBarrierDemo {
             @Override
             public void run() {
                 try {
-                    System.out.println("人满了, 大家统一出发, 倒计时10秒...");
-                    Thread.sleep(10000);
+                    System.out.println("人满了, 大家统一出发, 倒计时3秒...");
+                    Thread.sleep(500);
+                    for (int i = 3; i > 0; i--) {
+                        System.out.println(i + "...");
+                        Thread.sleep(1000);
+                    }
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
         });
 
-        /*
-         * 这里有10个线程, 而CyclicBarrier的计数大小为5, 所以这10个线程会分为两拨出发;
-         * 因为CyclicBarrier会在等待计数为零时, 自动重置等待计数;
-         */
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 5; i++) {
             new Thread(new Task(i + 1, cyclicBarrier)).start();
         }
     }
