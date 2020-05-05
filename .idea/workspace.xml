@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_13_AQS/_02_AQSPrinciple/AQSPrinciple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_13_AQS/_01_Intro/Intro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_AQS/_01_Intro/Intro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_13_AQS/_02_AQSInJava/SemaphoreAndAQS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_13_AQS/_02_AQSPrinciple/AQSPrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_AQS/_02_AQSPrinciple/AQSPrinciple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,7 +409,7 @@
       <workItem from="1588587298138" duration="14802000" />
       <workItem from="1588610450925" duration="812000" />
       <workItem from="1588648540682" duration="5254000" />
-      <workItem from="1588670490787" duration="6126000" />
+      <workItem from="1588670490787" duration="6544000" />
     </task>
     <servers />
   </component>
