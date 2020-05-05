@@ -21,32 +21,31 @@ package _13_AQS._02_AQSPrinciple;
  *    这里的获取和释放的方法, 是那些利用AQS的线程协作类里面最重要的方法, 是有线程协作类自己实现的, 并且含义各不相同;
  *    这些待实现的方法主要包括:
  *    a). 获取的方法
- *        获取操作会依赖于state变量, 经常会阻塞; 获取操作也会用到AQS中的等待队列的相关操作;
- *        如果线程协作类是一个独占锁的逻辑, 就重写tryAcquire()方法,
- *        如果线程协作类是一个共享锁的逻辑, 就重写tryAcquireShared(int acquires)方法;
- *        线程协作类需要根据自己的具体逻辑去重写这些方法;
- *        线程协作类的具体获取锁的逻辑依赖于这个重写的方法, 比如:
+ *        获取操作会依赖于state变量, 经常会阻塞;
+ *        每个线程协作类中都有获取的方法, 比如:
  *        在Lock中, 就是lock()、tryLock()等方法, 表示获取锁;
  *        在Semaphore中, 就是acquire()、tryAcquire()等方法, 表示获取许可证;
  *        在CountDownLatch中, 就是await()等方法;
- *        这些方法都用到了重写的获取锁的方法;
+ *        这些方法都用到了重写的获取锁的方法; 如果线程协作类是一个独占锁的逻辑, 就重写tryAcquire()方法,
+ *        如果线程协作类是一个共享锁的逻辑, 就重写tryAcquireShared(int acquires)方法;
+ *        线程协作类需要根据自己的具体逻辑去重写这些方法; 线程协作类的获取的方法依赖于这个重写的方法;
  *    b). 释放的方法
- *        释放操作不会阻塞线程; 释放操作也会用到AQS中的等待队列的相关操作;
- *        如果线程协作类是一个独占锁的逻辑, 就重写tryRelease()方法,
- *        如果线程协作类是一个共享锁的逻辑, 就重写tryReleaseShared(int releases)方法;
- *        线程协作类需要根据自己的具体逻辑去重写这些方法;
- *        线程协作类的具体释放锁的逻辑依赖于这个重写的方法, 比如:
+ *        释放操作不会阻塞线程;
+ *        每个线程协作类中都有释放的方法, 比如:
  *        在Lock中, 就是unlock()方法;
  *        在Semaphore中, 就是release()方法;
  *        在CountDownLatch中, 就是countDown()方法;
- *        这些方法都用到了重写的释放锁的方法;
+ *        这些方法都用到了重写的释放锁的方法; 如果线程协作类是一个独占锁的逻辑, 就重写tryRelease()方法,
+ *        如果线程协作类是一个共享锁的逻辑, 就重写tryReleaseShared(int releases)方法;
+ *        线程协作类需要根据自己的具体逻辑去重写这些方法; 线程协作类的释放的方法依赖于这个重写的方法;
  *
  * AQS的用法(比如我们利用AQS自己实现一个线程协作类):
- * 1. 写一个类, 想好协作逻辑, 实现获取/释放方法;
+ * 1. 写一个类, 想好协作逻辑, 实现获取/释放方法(需要用到下面第3步的重写的获取锁和释放锁的方法);
  * 2. 内部写一个Sync类(名字也可以自己取)继承自AbstractQueuedSynchronizer类;
- * 3. 根据是否独占, 来重写方法; 如果独占, 就重写tryAcquire()和tryRelease()方法;
+ * 3. 根据是否独占, 来重写获取锁和释放锁的方法; 如果独占, 就重写tryAcquire()和tryRelease()方法;
  *    如果共享, 就重写tryAcquireShared(int acquires)和tryReleaseShared(int releases)方法;
  *    在之前写的获取/释放方法中调用AQS的tryAcquire()/tryRelease()或者shared方法;
+ * 实例详见OneShotLatch.java
  *
  * AQS在CountDownLatch中的应用总结:
  * CountDownLatch实际上是一个共享锁的逻辑, 所以它在Sync内重写的方法是tryAcquireShared(int acquires)方法,
