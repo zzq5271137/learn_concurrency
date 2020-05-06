@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_13_AQS/_03_DIYLatchUsingAQS/OneShotLatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_13_AQS/_02_AQSPrinciple/AQSPrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_13_AQS/_02_AQSPrinciple/AQSPrinciple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_01_Intro/Intro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_01_Intro/RunnableCantThrowCheckedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_02_Demos/FutureDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_02_Demos/FutureDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_02_Demos/FutureDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_02_Demos/FutureDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_02_Demos/FutureDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_02_Demos/FutureTaskDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_01_SimpleCache/SimpleCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_02_Computable1/Computable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_02_Computable1/ExpensiveFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_02_Computable1/MyCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_03_Computable2/Computable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_03_Computable2/ExpensiveFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_03_Computable2/MyCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_04_Computable3/Computable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_04_Computable3/ExpensiveFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_04_Computable3/MyCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_05_Computable4/Computable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_05_Computable4/ExpensiveFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_05_Computable4/MyCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_06_Computable5/Computable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_06_Computable5/ExpensiveFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_06_Computable5/MyCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_06_Computable5/TestMyCacheUsingThreadPool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +80,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_07_Lock/_04_TypesOfLock/ReentrantLock" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_15_SimpleProject/_06_Computable5" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -72,25 +95,27 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_14_FutureAndCallable._02_Demos" />
       <recent name="_12_FlowControl._02_CountDownLatch" />
       <recent name="_11_ConcurrentContainer._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._02_SetAndMap" />
       <recent name="_11_ConcurrentContainer._01_Intro" />
       <recent name="_10_Immutable.StringPoolDemos" />
-      <recent name="_10_Immutable" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_07_Lock\_04_TypesOfLock\ReentrantLock" />
-      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_06_ThreadLocal\_01_HowToUse\LambdaExpression" />
-      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_03_DeadLock\_05_FixDeadLocks" />
+      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_15_SimpleProject\_06_Computable5" />
+      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_15_SimpleProject\_05_Computable4" />
+      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_15_SimpleProject\_04_Computable3" />
+      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_15_SimpleProject\_02_Computable2" />
+      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_15_SimpleProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OneShotLatch">
-    <configuration name="ConditionDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_12_FlowControl._04_Condition.ConditionDemo1" />
+  <component name="RunManager" selected="Application.TestMyCacheUsingThreadPool">
+    <configuration name="MyCache (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._04_Computable3.MyCache" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_12_FlowControl._04_Condition.*" />
+          <option name="PATTERN" value="_15_SimpleProject._04_Computable3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_12_FlowControl._04_Condition.ConditionDemo2" />
+    <configuration name="MyCache (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._05_Computable4.MyCache" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_12_FlowControl._04_Condition.*" />
+          <option name="PATTERN" value="_15_SimpleProject._05_Computable4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_12_FlowControl._05_CyclicBarrier.CyclicBarrierDemo" />
+    <configuration name="MyCache (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._06_Computable5.MyCache" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_12_FlowControl._05_CyclicBarrier.*" />
+          <option name="PATTERN" value="_15_SimpleProject._06_Computable5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneShotLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_13_AQS._03_DIYLatchUsingAQS.OneShotLatch" />
+    <configuration name="MyCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._03_Computable2.MyCache" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_13_AQS._03_DIYLatchUsingAQS.*" />
+          <option name="PATTERN" value="_15_SimpleProject._03_Computable2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +162,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PauseableThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_ThreadPool._05_HookFunctions.PauseableThreadPool" />
+    <configuration name="SimpleCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._01_SimpleCache.SimpleCache" />
       <module name="Learn_Concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_05_ThreadPool._05_HookFunctions.*" />
+          <option name="PATTERN" value="_15_SimpleProject._01_SimpleCache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyCacheUsingThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._06_Computable5.TestMyCacheUsingThreadPool" />
+      <module name="Learn_Concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_15_SimpleProject._06_Computable5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OneShotLatch" />
-        <item itemvalue="Application.CyclicBarrierDemo" />
-        <item itemvalue="Application.ConditionDemo2" />
-        <item itemvalue="Application.PauseableThreadPool" />
-        <item itemvalue="Application.ConditionDemo1" />
+        <item itemvalue="Application.TestMyCacheUsingThreadPool" />
+        <item itemvalue="Application.MyCache (3)" />
+        <item itemvalue="Application.MyCache (2)" />
+        <item itemvalue="Application.MyCache (1)" />
+        <item itemvalue="Application.MyCache (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +448,8 @@
       <workItem from="1588587298138" duration="14802000" />
       <workItem from="1588610450925" duration="812000" />
       <workItem from="1588648540682" duration="5254000" />
-      <workItem from="1588670490787" duration="9343000" />
+      <workItem from="1588670490787" duration="16629000" />
+      <workItem from="1588729880600" duration="28091000" />
     </task>
     <servers />
   </component>
@@ -421,54 +460,62 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1588680520643">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1588769896194">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588680520643" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588769896194" />
+    <state x="546" y="297" width="474" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588757040458">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="546" y="297" width="474" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1588757040458" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586430964576">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586430964576" />
-    <state width="1493" height="280" key="GridCell.Tab.0.bottom" timestamp="1588682271828">
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1588770377196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="280" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588682271828" />
-    <state width="1493" height="280" key="GridCell.Tab.0.center" timestamp="1588682271828">
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
+    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1588770377196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="280" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588682271828" />
-    <state width="1493" height="280" key="GridCell.Tab.0.left" timestamp="1588682271828">
+    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
+    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1588770377196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="280" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588682271828" />
-    <state width="1493" height="280" key="GridCell.Tab.0.right" timestamp="1588682271828">
+    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
+    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1588770377196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="280" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588682271828" />
-    <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1588577335128">
+    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1588770377196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588577335128" />
-    <state width="1493" height="266" key="GridCell.Tab.1.center" timestamp="1588577335128">
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
+    <state width="1493" height="266" key="GridCell.Tab.1.center" timestamp="1588770377196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588577335128" />
-    <state width="1493" height="266" key="GridCell.Tab.1.left" timestamp="1588577335128">
+    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
+    <state width="1493" height="266" key="GridCell.Tab.1.left" timestamp="1588770377196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588577335128" />
-    <state width="1493" height="266" key="GridCell.Tab.1.right" timestamp="1588577335128">
+    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
+    <state width="1493" height="266" key="GridCell.Tab.1.right" timestamp="1588770377196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588577335128" />
+    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
+    <state x="516" y="123" key="RollbackChangesDialog" timestamp="1588736908082">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="516" y="123" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1588736908082" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1587138832413">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587138832413" />
-    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1588678732829">
+    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1588730514725">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1588678732829" />
+    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1588730514725" />
     <state x="174" y="36" key="new project wizard" timestamp="1587354816915">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
