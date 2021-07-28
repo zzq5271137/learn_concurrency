@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_01_Intro/Intro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_01_Intro/RunnableCantThrowCheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_02_Demos/FutureDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_02_Demos/FutureDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_02_Demos/FutureDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_02_Demos/FutureDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_02_Demos/FutureDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_14_FutureAndCallable/_02_Demos/FutureTaskDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_01_SimpleCache/SimpleCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_02_Computable1/Computable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_02_Computable1/ExpensiveFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_02_Computable1/MyCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_03_Computable2/Computable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_03_Computable2/ExpensiveFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_03_Computable2/MyCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_04_Computable3/Computable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_04_Computable3/ExpensiveFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_04_Computable3/MyCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_05_Computable4/Computable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_05_Computable4/ExpensiveFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_05_Computable4/MyCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_06_Computable5/Computable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_06_Computable5/ExpensiveFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_06_Computable5/MyCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_15_SimpleProject/_06_Computable5/TestMyCacheUsingThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/META-INF/Learn_Concurrency.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,16 +47,16 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/_15_SimpleProject/_06_Computable5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -188,12 +164,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <file path="%IDEA_RUN:TOMCAT_HOME%/webapps">
+        <file path="/%IDEA_RUN:TOMCAT_HOME%/webapps">
           <settings>
             <option name="CONTEXT_PATH" value="/default" />
           </settings>
@@ -314,6 +301,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -450,83 +438,14 @@
       <workItem from="1588648540682" duration="5254000" />
       <workItem from="1588670490787" duration="16629000" />
       <workItem from="1588729880600" duration="28091000" />
+      <workItem from="1627434004331" duration="66000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1588769896194">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588769896194" />
-    <state x="546" y="297" width="474" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588757040458">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="546" y="297" width="474" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1588757040458" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586430964576">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586430964576" />
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1588770377196">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
-    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1588770377196">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
-    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1588770377196">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
-    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1588770377196">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
-    <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1588770377196">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
-    <state width="1493" height="266" key="GridCell.Tab.1.center" timestamp="1588770377196">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
-    <state width="1493" height="266" key="GridCell.Tab.1.left" timestamp="1588770377196">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
-    <state width="1493" height="266" key="GridCell.Tab.1.right" timestamp="1588770377196">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588770377196" />
-    <state x="516" y="123" key="RollbackChangesDialog" timestamp="1588736908082">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="516" y="123" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1588736908082" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1587138832413">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587138832413" />
-    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1588730514725">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1588730514725" />
-    <state x="174" y="36" key="new project wizard" timestamp="1587354816915">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="174" y="36" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1587354816915" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1588474366358">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1588474366358" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588511079047">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588511079047" />
   </component>
 </project>
