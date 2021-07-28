@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_02_JavaMemoryModel/_03_FieldVisibility/FieldVisibility$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_02_JavaMemoryModel/_03_FieldVisibility/VolatileUsefulDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_02_LockDemos/MustUnlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentCollections/_02_Predecessors/SynMapDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_12_FlowControl/_02_CountDownLatch/CountDownLatchDemo3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_13_AQS/_03_DIYLatchUsingAQS/OneShotLatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_14_FutureAndCallable/_01_Intro/RunnableCantThrowCheckedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learn_Concurrency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learn_concurrency.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,10 +85,10 @@
       <recent name="_10_Immutable.StringPoolDemos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestMyCacheUsingThreadPool">
+  <component name="RunManager" selected="Application.SimulateCAS">
     <configuration name="MyCache (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._04_Computable3.MyCache" />
-      <module name="Learn_Concurrency" />
+      <module name="learn_concurrency" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_15_SimpleProject._04_Computable3.*" />
@@ -108,7 +101,7 @@
     </configuration>
     <configuration name="MyCache (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._05_Computable4.MyCache" />
-      <module name="Learn_Concurrency" />
+      <module name="learn_concurrency" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_15_SimpleProject._05_Computable4.*" />
@@ -121,7 +114,7 @@
     </configuration>
     <configuration name="MyCache (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._06_Computable5.MyCache" />
-      <module name="Learn_Concurrency" />
+      <module name="learn_concurrency" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_15_SimpleProject._06_Computable5.*" />
@@ -132,25 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._03_Computable2.MyCache" />
-      <module name="Learn_Concurrency" />
+    <configuration name="SimulateCAS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_09_CAS.SimulateCAS" />
+      <module name="learn_concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_15_SimpleProject._03_Computable2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._01_SimpleCache.SimpleCache" />
-      <module name="Learn_Concurrency" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_15_SimpleProject._01_SimpleCache.*" />
+          <option name="PATTERN" value="_09_CAS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,7 +140,7 @@
     </configuration>
     <configuration name="TestMyCacheUsingThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._06_Computable5.TestMyCacheUsingThreadPool" />
-      <module name="Learn_Concurrency" />
+      <module name="learn_concurrency" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_15_SimpleProject._06_Computable5.*" />
@@ -178,6 +158,53 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="learn_concurrency" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="learn_concurrency" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -288,10 +315,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimulateCAS" />
         <item itemvalue="Application.TestMyCacheUsingThreadPool" />
         <item itemvalue="Application.MyCache (3)" />
         <item itemvalue="Application.MyCache (2)" />
-        <item itemvalue="Application.MyCache (1)" />
         <item itemvalue="Application.MyCache (1)" />
       </list>
     </recent_temporary>
@@ -447,7 +474,7 @@
       <workItem from="1588729880600" duration="28091000" />
       <workItem from="1627434004331" duration="66000" />
       <workItem from="1627434191967" duration="68000" />
-      <workItem from="1627434294014" duration="56000" />
+      <workItem from="1627434294014" duration="195000" />
     </task>
     <servers />
   </component>
