@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/META-INF/Learn_Concurrency.kotlin_module" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_02_JavaMemoryModel/_03_FieldVisibility/FieldVisibility$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_02_JavaMemoryModel/_03_FieldVisibility/VolatileUsefulDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_07_Lock/_02_LockDemos/MustUnlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_11_ConcurrentCollections/_02_Predecessors/SynMapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_12_FlowControl/_02_CountDownLatch/CountDownLatchDemo3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_13_AQS/_03_DIYLatchUsingAQS/OneShotLatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Concurrency/_14_FutureAndCallable/_01_Intro/RunnableCantThrowCheckedException.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,19 +77,19 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_15_SimpleProject\_06_Computable5" />
+      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_15_SimpleProject\_05_Computable4" />
+      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_15_SimpleProject\_04_Computable3" />
+      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_15_SimpleProject\_02_Computable2" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="_14_FutureAndCallable._02_Demos" />
       <recent name="_12_FlowControl._02_CountDownLatch" />
       <recent name="_11_ConcurrentContainer._02_ConcurrentHashMap._02_ConcurrentHashMapStructure.Tree._02_SetAndMap" />
       <recent name="_11_ConcurrentContainer._01_Intro" />
       <recent name="_10_Immutable.StringPoolDemos" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_15_SimpleProject\_06_Computable5" />
-      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_15_SimpleProject\_05_Computable4" />
-      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_15_SimpleProject\_04_Computable3" />
-      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_15_SimpleProject\_02_Computable2" />
-      <recent name="H:\IDEA_workspace\Learn_Concurrency\src\_15_SimpleProject" />
     </key>
   </component>
   <component name="RunManager" selected="Application.TestMyCacheUsingThreadPool">
@@ -439,11 +446,24 @@
       <workItem from="1588670490787" duration="16629000" />
       <workItem from="1588729880600" duration="28091000" />
       <workItem from="1627434004331" duration="66000" />
+      <workItem from="1627434191967" duration="68000" />
+      <workItem from="1627434294014" duration="56000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
