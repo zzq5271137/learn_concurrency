@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Learn_Concurrency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learn_concurrency.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.116009295" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -85,13 +85,13 @@
       <recent name="_10_Immutable.StringPoolDemos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimulateCAS">
-    <configuration name="MyCache (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._04_Computable3.MyCache" />
+  <component name="RunManager" selected="Application.DontUseThreadInstanceAsLock">
+    <configuration name="BlockedWaitingTimedWaiting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_EightCores._04_Core4_LifeCycle.BlockedWaitingTimedWaiting" />
       <module name="learn_concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_15_SimpleProject._04_Computable3.*" />
+          <option name="PATTERN" value="_01_EightCores._04_Core4_LifeCycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCache (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._05_Computable4.MyCache" />
+    <configuration name="CurrentThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_EightCores._05_Core5_CoreMethodsInThreadAndObjectClass.CurrentThreadDemo" />
       <module name="learn_concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_15_SimpleProject._05_Computable4.*" />
+          <option name="PATTERN" value="_01_EightCores._05_Core5_CoreMethodsInThreadAndObjectClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCache (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._06_Computable5.MyCache" />
+    <configuration name="DontUseThreadInstanceAsLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_EightCores._05_Core5_CoreMethodsInThreadAndObjectClass.DontUseThreadInstanceAsLock" />
       <module name="learn_concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_15_SimpleProject._06_Computable5.*" />
+          <option name="PATTERN" value="_01_EightCores._05_Core5_CoreMethodsInThreadAndObjectClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimulateCAS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_09_CAS.SimulateCAS" />
+    <configuration name="LockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_EightCores._04_Core4_LifeCycle.SynchronizedDemos._07_Drawbacks.LockDemo" />
       <module name="learn_concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_09_CAS.*" />
+          <option name="PATTERN" value="_01_EightCores._04_Core4_LifeCycle.SynchronizedDemos._07_Drawbacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,73 +138,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMyCacheUsingThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_15_SimpleProject._06_Computable5.TestMyCacheUsingThreadPool" />
+    <configuration name="SynchronizedReentrantSituation1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_EightCores._04_Core4_LifeCycle.SynchronizedDemos._05_SynchronizedProperties.SynchronizedReentrantSituation1" />
       <module name="learn_concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_15_SimpleProject._06_Computable5.*" />
+          <option name="PATTERN" value="_01_EightCores._04_Core4_LifeCycle.SynchronizedDemos._05_SynchronizedProperties.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="learn_concurrency" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="learn_concurrency" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -315,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimulateCAS" />
-        <item itemvalue="Application.TestMyCacheUsingThreadPool" />
-        <item itemvalue="Application.MyCache (3)" />
-        <item itemvalue="Application.MyCache (2)" />
-        <item itemvalue="Application.MyCache (1)" />
+        <item itemvalue="Application.DontUseThreadInstanceAsLock" />
+        <item itemvalue="Application.CurrentThreadDemo" />
+        <item itemvalue="Application.LockDemo" />
+        <item itemvalue="Application.BlockedWaitingTimedWaiting" />
+        <item itemvalue="Application.SynchronizedReentrantSituation1" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +416,44 @@
       <workItem from="1588729880600" duration="28091000" />
       <workItem from="1627434004331" duration="66000" />
       <workItem from="1627434191967" duration="68000" />
-      <workItem from="1627434294014" duration="195000" />
+      <workItem from="1627434294014" duration="269000" />
+      <workItem from="1627524616257" duration="110000" />
+      <workItem from="1628291507143" duration="8526000" />
+      <workItem from="1629163175391" duration="918000" />
+      <workItem from="1629481850038" duration="1387000" />
+      <workItem from="1629632061720" duration="198000" />
+      <workItem from="1629717868585" duration="155000" />
+      <workItem from="1629806670241" duration="232000" />
+      <workItem from="1629819964602" duration="1863000" />
+      <workItem from="1629854211159" duration="17000" />
+      <workItem from="1629898241002" duration="593000" />
+      <workItem from="1629983995909" duration="141000" />
+      <workItem from="1630227818526" duration="1772000" />
+      <workItem from="1630329028271" duration="1859000" />
+      <workItem from="1630334277415" duration="851000" />
+      <workItem from="1630414002949" duration="577000" />
+      <workItem from="1630503343153" duration="609000" />
+      <workItem from="1630507988178" duration="2282000" />
+      <workItem from="1630575706132" duration="828000" />
+      <workItem from="1630633613055" duration="3000" />
+      <workItem from="1630719080123" duration="7156000" />
+      <workItem from="1631955454896" duration="2871000" />
+      <workItem from="1632041406491" duration="426000" />
+      <workItem from="1632194017232" duration="665000" />
+      <workItem from="1632845101108" duration="4572000" />
+      <workItem from="1632995674128" duration="1583000" />
+      <workItem from="1633084124841" duration="945000" />
+      <workItem from="1633099672696" duration="514000" />
+      <workItem from="1633105457016" duration="15252000" />
+      <workItem from="1633351457733" duration="1187000" />
+      <workItem from="1633413994427" duration="605000" />
+      <workItem from="1633428200400" duration="4153000" />
+      <workItem from="1633928537575" duration="1348000" />
+      <workItem from="1633940919562" duration="2785000" />
+      <workItem from="1634317827008" duration="32000" />
+      <workItem from="1640327833301" duration="1179000" />
+      <workItem from="1640883633683" duration="331000" />
+      <workItem from="1643771573568" duration="175000" />
     </task>
     <servers />
   </component>
@@ -491,6 +470,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
