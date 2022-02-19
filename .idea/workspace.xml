@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="4ce7ecc4-9e54-42a1-bfb7-7498c0b5a14f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +83,7 @@
       <recent name="_10_Immutable.StringPoolDemos" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DontUseThreadInstanceAsLock">
+  <component name="RunManager" selected="Application.UseBoth">
     <configuration name="BlockedWaitingTimedWaiting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_01_EightCores._04_Core4_LifeCycle.BlockedWaitingTimedWaiting" />
       <module name="learn_concurrency" />
@@ -138,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedReentrantSituation1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01_EightCores._04_Core4_LifeCycle.SynchronizedDemos._05_SynchronizedProperties.SynchronizedReentrantSituation1" />
+    <configuration name="UseBoth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_EightCores._01_Core1_CreateThreads.UseBoth" />
       <module name="learn_concurrency" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_01_EightCores._04_Core4_LifeCycle.SynchronizedDemos._05_SynchronizedProperties.*" />
+          <option name="PATTERN" value="_01_EightCores._01_Core1_CreateThreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseBoth" />
         <item itemvalue="Application.DontUseThreadInstanceAsLock" />
         <item itemvalue="Application.CurrentThreadDemo" />
         <item itemvalue="Application.LockDemo" />
         <item itemvalue="Application.BlockedWaitingTimedWaiting" />
-        <item itemvalue="Application.SynchronizedReentrantSituation1" />
       </list>
     </recent_temporary>
   </component>
@@ -454,6 +452,11 @@
       <workItem from="1640327833301" duration="1179000" />
       <workItem from="1640883633683" duration="331000" />
       <workItem from="1643771573568" duration="175000" />
+      <workItem from="1643989031654" duration="59000" />
+      <workItem from="1643994279904" duration="921000" />
+      <workItem from="1644050419039" duration="36000" />
+      <workItem from="1645199017148" duration="72000" />
+      <workItem from="1645206081467" duration="446000" />
     </task>
     <servers />
   </component>
