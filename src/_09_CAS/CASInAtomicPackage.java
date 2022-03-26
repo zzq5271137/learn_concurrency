@@ -8,6 +8,7 @@ package _09_CAS;
  *    Unsafe类是CAS的核心类, Java无法直接访问底层操作系统, 而是通过本地(native)方法来访问,
  *    所以, JDK提供了一个Unsafe类, 它提供了硬件级别的原子操作, 比如这里的CAS操作;
  *    Unsafe最终调用的都是native的方法, 用来执行CAS指令;
+ *    追到底层, 最终执行的cpu指令是"lock cmpxchg", 其中, "lock"前缀, 表示在执行"cmpxchg"指令时, 使用"总线锁"或者"缓存锁"的方式, 保证"cmpxchg"指令的原子性;
  * 2. 在Unsafe的方法中, 使用CAS指令(native方法)加上自旋操作(CAS加自旋, 其实就是乐观锁的重试策略的实现),
  *    实现了AtomicInteger的原子性; 自旋操作的目的是, 如果此次CAS更新失败, 就重新获取, 然后再次更新, 直到更新成功;
  * 3. 在AtomicInteger中, 用volatile修饰value字段, 保证可见性;
