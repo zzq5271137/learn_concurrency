@@ -8,11 +8,11 @@ public class SingletonType7 {
     private SingletonType7() {
     }
 
-    private static class SingletonInstance {
+    private static class InstanceHolder {
         private static final SingletonType7 INSTANCE = new SingletonType7();
     }
 
     public static SingletonType7 getInstance() {
-        return SingletonInstance.INSTANCE;
+        return InstanceHolder.INSTANCE;
     }
 }
