@@ -3,6 +3,7 @@ package _06_ThreadLocal._03_ReferencesTypes;
 /*
  * 参考: https://blog.csdn.net/qq_39192827/article/details/85611873
  *      https://www.cnblogs.com/wjh123/p/11142176.html
+ *      https://www.bilibili.com/video/BV12f4y127bZ?spm_id_from=333.337.search-card.all.click
  *
  * 在JDK1.2以前的版本中, 当一个对象不被任何变量引用, 那么程序就无法再使用这个对象; 也就是说, 只有对象处于可触及状态,
  * 程序才能使用它; 这就像在商店购买了某样物品后, 如果有用就一直保留它, 否则就把它扔到垃圾箱, 由清洁工人收走;

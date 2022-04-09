@@ -3,6 +3,7 @@ package _06_ThreadLocal._03_ReferencesTypes;
 /*
  * 参考: https://blog.csdn.net/qq_39192827/article/details/85611873
  *      https://www.cnblogs.com/wjh123/p/11142176.html
+ *      https://www.bilibili.com/video/BV12f4y127bZ?spm_id_from=333.337.search-card.all.click
  *
  * 软引用(Soft Reference):
  * 软引用是用来描述一些有用但并不是必需的对象, 在Java中用java.lang.ref.SoftReference类来表示;

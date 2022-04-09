@@ -3,6 +3,7 @@ package _06_ThreadLocal._03_ReferencesTypes;
 /*
  * 参考: https://blog.csdn.net/qq_39192827/article/details/85611873
  *      https://www.cnblogs.com/wjh123/p/11142176.html
+ *      https://www.bilibili.com/video/BV12f4y127bZ?spm_id_from=333.337.search-card.all.click
  *
  * 弱引用(Weak Reference):
  * 弱引用也是用来描述非必需对象的, 当JVM进行垃圾回收时, 无论内存是否充足, 都会回收被弱引用关联的对象;

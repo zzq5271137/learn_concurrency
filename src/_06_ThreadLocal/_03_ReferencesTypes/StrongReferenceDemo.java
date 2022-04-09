@@ -3,6 +3,7 @@ package _06_ThreadLocal._03_ReferencesTypes;
 /*
  * 参考: https://blog.csdn.net/qq_39192827/article/details/85611873
  *      https://www.cnblogs.com/wjh123/p/11142176.html
+ *      https://www.bilibili.com/video/BV12f4y127bZ?spm_id_from=333.337.search-card.all.click
  *
  * 强引用(Strong Reference):
  * 我们使用的大部分引用实际上都是强引用, 这是使用最普遍的引用; 比如下面这段代码中的object和str都是强引用:
