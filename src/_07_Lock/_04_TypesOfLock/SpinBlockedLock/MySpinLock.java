@@ -15,7 +15,7 @@ public class MySpinLock {
         while (!sign.compareAndSet(null, current)) {
             System.out.println(Thread.currentThread().getName() + "自旋锁获取失败, 再次尝试");
             try {
-                TimeUnit.MILLISECONDS.sleep(5);
+                TimeUnit.MILLISECONDS.sleep(5);  // 添加一点点睡眠，为了更好的展示运行结果，不至于打印过多
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
