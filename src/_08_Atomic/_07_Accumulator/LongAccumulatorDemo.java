@@ -16,16 +16,18 @@ public class LongAccumulatorDemo {
          * 这也是Accumulator累加器更灵活的地方, 可以用方法引用来使用已定义好的一些运算;
          * 第二个参数表示初始值;
          */
-        // LongAccumulator accumulator = new LongAccumulator((x, y) -> x + y, 100);
-        // LongAccumulator accumulator = new LongAccumulator(Long::sum, 100);
+        // LongAccumulator accumulator = new LongAccumulator((x, y) -> x + y, 0);
+        LongAccumulator accumulator = new LongAccumulator(Long::sum, 0);
         // LongAccumulator accumulator = new LongAccumulator((x, y) -> x > y ? x : y, 100);
-        LongAccumulator accumulator = new LongAccumulator(Math::max, 100);
+        // LongAccumulator accumulator = new LongAccumulator(Math::max, 100);
 
         ExecutorService executorService = Executors.newFixedThreadPool(8);
-        IntStream.range(1, 10).forEach(n -> executorService.submit(() -> accumulator.accumulate(n)));
+        IntStream.range(1, 11).forEach(n -> executorService.submit(() -> accumulator.accumulate(n)));
         executorService.shutdown();
         while (!executorService.isTerminated()) {
         }
-        System.out.println(accumulator.getThenReset());
+        System.out.println(accumulator.get());
+        System.out.println(accumulator.getThenReset());  // getThenReset()方法会获取当前结果，并重置成初始值
+        System.out.println(accumulator.get());
     }
 }
