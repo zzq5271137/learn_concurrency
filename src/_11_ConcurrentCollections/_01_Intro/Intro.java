@@ -34,6 +34,8 @@ package _11_ConcurrentCollections._01_Intro;
  *    那么Collections.synchronizedList的性能要优于CopyOnWriteArrayList, 因为CopyOnWriteArrayList适用于读多写少的场景,
  *    因为它每次写入, 都会完整复制整个链表; 但是对于ConcurrentHashMap来说,
  *    它几乎没有例外的在所有场景的性能都优于Collections.synchronizedMap;
+ *
+ * HashMap和ConcurrentHashMap底层源码分析：https://www.bilibili.com/video/BV1Nz4y1d77x/?spm_id_from=333.788.recommend_more_video.0
  */
 
 public class Intro {
