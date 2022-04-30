@@ -10,6 +10,7 @@ import java.util.Iterator;
 public class FastFailInHashMap {
     public static void main(String[] args) {
         HashMap<String, String> map = new HashMap<>();
+//        ConcurrentHashMap<String, String> map = new ConcurrentHashMap<>();  // ConcurrentHashMap就不会有这个问题，因为ConcurrentHashMap是要保证线程安全的，它在自己内部做了同步处理，不需要fast-fail机制
         map.put("k1", "v1");
         map.put("k2", "v2");
         map.put("k3", "v3");
@@ -28,7 +29,7 @@ public class FastFailInHashMap {
                  * 因为它本身就不是设计为并发安全的; 不仅是HashMap, 很多其他非并发安全的容器都有这种机制,
                  * 比如ArrayList, 详见CopyOnWriteArrayListDemo1.java
                  */
-                // map.remove("k2");
+//                map.remove("k2");
 
                 /*
                  * 解决这个异常的办法, 可以使用iterator的remove()方法, 详见源码;
