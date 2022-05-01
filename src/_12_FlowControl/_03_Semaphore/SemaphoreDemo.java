@@ -10,7 +10,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
 public class SemaphoreDemo {
-    static Semaphore semaphore = new Semaphore(6, true);
+    static Semaphore semaphore = new Semaphore(6, true);  // 6个许可证，下面的task一次获取3个，所以同时最多有2个线程进入临界区执行
 
     static class Task implements Runnable {
         @Override
