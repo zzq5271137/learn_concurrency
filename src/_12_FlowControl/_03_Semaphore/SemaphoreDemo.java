@@ -10,7 +10,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
 public class SemaphoreDemo {
-    static Semaphore semaphore = new Semaphore(3, true);
+    static Semaphore semaphore = new Semaphore(6, true);
 
     static class Task implements Runnable {
         @Override
