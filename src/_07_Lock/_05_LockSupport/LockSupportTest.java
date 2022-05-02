@@ -2,6 +2,7 @@ package _07_Lock._05_LockSupport;
 
 /*
  * LockSupport定义了一组静态公共方法，这些方法提供了最基本的线程阻塞和唤醒功能。
+ * LockSupport是构建同步组件的基础工具，例如AQS中就使用了。
  */
 
 import java.util.concurrent.TimeUnit;
