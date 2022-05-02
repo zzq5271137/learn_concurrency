@@ -28,7 +28,7 @@ public class LockSupportTest {
         System.out.println("Main: before park, [" + t.getState() + "]");
         try {
             TimeUnit.SECONDS.sleep(2);
-            System.out.println("Main: thread is parking, [" + t.getState() + "]");
+            System.out.println("Main: thread is parking, [" + t.getState() + "]");  // 打印[WAITING]，记得前面讲过，只有尝试获取monitor锁并且未获得时，线程才会进入BLOCKED状态，其他的阻塞状态都是WAITING
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
