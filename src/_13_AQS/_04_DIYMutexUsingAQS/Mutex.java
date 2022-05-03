@@ -1,5 +1,9 @@
 package _13_AQS._04_DIYMutexUsingAQS;
 
+/*
+ * 使用AQS实现一个简单的独占锁，它在同一时刻只允许一个线程占有。
+ */
+
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 import java.util.concurrent.locks.Condition;
