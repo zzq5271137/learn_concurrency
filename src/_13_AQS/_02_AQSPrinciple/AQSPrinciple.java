@@ -62,6 +62,8 @@ package _13_AQS._02_AQSPrinciple;
  * Semaphore也是一个共享锁的逻辑, 所以它在Sync内重写的方法是tryAcquireShared(int acquires)方法,
  * 和tryReleaseShared(int releases)方法;
  * 在Semaphore中, state表示"剩余的许可证的数量";
+ *
+ * 资料：https://www.bilibili.com/video/BV19J411Q7R5?p=10
  */
 
 public class AQSPrinciple {
