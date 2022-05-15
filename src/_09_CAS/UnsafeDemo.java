@@ -14,7 +14,8 @@ public class UnsafeDemo {
 
     static {
         try {
-            Field field = sun.misc.Unsafe.class.getDeclaredField("theUnsafe");  // 使用反射获取一个Unsafe对象（走后门）
+//            Field field = sun.misc.Unsafe.class.getDeclaredField("theUnsafe");  // 使用反射获取一个Unsafe对象（走后门）
+            Field field = sun.misc.Unsafe.class.getDeclaredFields()[0];  // 使用反射获取一个Unsafe对象（走后门）
             field.setAccessible(true);
             UNSAFE = (sun.misc.Unsafe) field.get(null);
             COUNT_OFFSET = UNSAFE.objectFieldOffset(UnsafeDemo.class.getDeclaredField("count"));  // 通过Unsafe，获取类属性的偏移量（CAS操作时需要用到）
