@@ -63,7 +63,9 @@ package _13_AQS._02_AQSPrinciple;
  * 和tryReleaseShared(int releases)方法;
  * 在Semaphore中, state表示"剩余的许可证的数量";
  *
- * 资料：https://www.bilibili.com/video/BV19J411Q7R5?p=10
+ * 资料：
+ * 1. https://www.bilibili.com/video/BV19J411Q7R5?p=10
+ * 2. https://www.jianshu.com/p/cb326d6233d5
  */
 
 public class AQSPrinciple {
